@@ -1,0 +1,1398 @@
+---
+title: "APNet"
+author: "Vasileios Vasileiou"
+date: "`r Sys.Date()`"
+output:
+  BiocStyle::html_document:
+    toc: true
+    vignette: >
+  %\VignetteIndexEntry{APNet: Activity PASNet (Pathway-Associated Sparse Deep Neural Network)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This vignette describes the use of APNet to analyze and uncover signaling drivers from large biological datasets with clinical information, based on "activity" values of the NetBID2 pipeline.
+
+These drivers are used as inputs for a neural network called PASNet, which includes biological knowledge to make interpretable clinical predictions.
+
+The ultimate goal is to predict plasma proteomic biomarkers and signaling patterns for severe COVID-19, focusing on hidden drivers in the data and their association with relevant biological pathways.
+
+The method was tested and validated using multiple datasets, including proteomic and single-cell RNA sequencing data.
+
+This vignette is separated into 2 case studies on COVID19
+
+-   **Case study #1**: Perform APNet on 3 bulk proteomics Olink datasets (MGH, Mayo Clinic, Stanford).
+
+-   **Case study #2**: Perform APNet on MGH bulk proteomics Olink dataset with PBMC-derived scRNAseq.
+
+# Case study #1 -- Plasma proteomic predictions
+
+## 1) Preprocessing Raw datasets
+
+The appropriate format as ExpressionSet should be created for NetBID2 pipeline
+
+The ExpressionSet object consists **expression** data from proteomics (assayData; assayData), **meta-data** describing samples in the experiment (phenoData), and **annotation** about the features (proteins) (featureData). For the purpose of our analysis, only expression and meta-data will be available.
+
+### 1.1) Libraries
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(icesTAF)
+```
+
+### 1.2 Create Folders for APNet
+
+```{r, warning=FALSE, message=FALSE}
+# Directory of work
+# mkdir("C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1/")
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+# Create folders for MGH
+mkdir(sprintf("%s/2.Preprocessing/MGH", main_dir))
+mkdir(sprintf("%s/3.NetBID2/MGH", main_dir))
+mkdir(sprintf("%s/4.Matrices/Expression/MGH", main_dir))
+mkdir(sprintf("%s/4.Matrices/Activity/MGH", main_dir))
+mkdir(sprintf("%s/4.Matrices/MetaData/MGH", main_dir))
+mkdir(sprintf("%s/5.Results/Expression/MGH", main_dir))
+mkdir(sprintf("%s/5.Results/Activity/MGH", main_dir))
+# Create folders for Mayo
+mkdir(sprintf("%s/2.Preprocessing/Mayo", main_dir))
+mkdir(sprintf("%s/3.NetBID2/Mayo", main_dir))
+mkdir(sprintf("%s/4.Matrices/Expression/Mayo", main_dir))
+mkdir(sprintf("%s/4.Matrices/Activity/Mayo", main_dir))
+mkdir(sprintf("%s/4.Matrices/MetaData/Mayo", main_dir))
+mkdir(sprintf("%s/5.Results/Expression/Mayo", main_dir))
+mkdir(sprintf("%s/5.Results/Activity/Mayo", main_dir))
+# Create folders for Stanford
+mkdir(sprintf("%s/2.Preprocessing/Stanford", main_dir))
+mkdir(sprintf("%s/3.NetBID2/Stanford", main_dir))
+mkdir(sprintf("%s/4.Matrices/Expression/Stanford", main_dir))
+mkdir(sprintf("%s/4.Matrices/Activity/Stanford", main_dir))
+mkdir(sprintf("%s/4.Matrices/MetaData/Stanford", main_dir))
+mkdir(sprintf("%s/5.Results/Expression/Stanford", main_dir))
+mkdir(sprintf("%s/5.Results/Activity/Stanford", main_dir))
+```
+
+### 1.3) Create ExpressionSet Object
+
+#### MGH
+
+```{r, warning=FALSE, message=FALSE}
+# Directory of work
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+output_dir <- sprintf("%s/2.Preprocessing/MGH", main_dir)
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+## load / fix pheno data
+setwd(sprintf("%s/1.Raw_files/MGH", main_dir))
+
+pData <- read.table("MGH_COVID_Clinical_Info.txt", sep = ";", header = T)
+
+pData <- pData[c('subject_id','COVID', "Acuity_0")]
+
+pData[["Acuity_0"]] <- str_replace_all(pData[["Acuity_0"]], "1", "Severe")
+pData[["Acuity_0"]] <- str_replace_all(pData[["Acuity_0"]], "2", "Severe")
+pData[["Acuity_0"]] <- str_replace_all(pData[["Acuity_0"]], "3", "NonSevere")
+pData[["Acuity_0"]] <- str_replace_all(pData[["Acuity_0"]], "4", "NonSevere")
+pData[["Acuity_0"]] <- str_replace_all(pData[["Acuity_0"]], "5", "NonSevere")
+
+## Keep COVID-19 samples
+
+pData_Covid <- filter(pData, COVID == "1")
+pData_Covid <- pData_Covid$subject_id
+
+## Read expression values
+count_proteomics <- read.table("MGH_COVID_OLINK_NPX.txt", sep = ";", header = T)
+
+## keep Day 0
+count_proteomics <- filter(count_proteomics, Timepoint == "D0")
+count_proteomics <- count_proteomics[count_proteomics$subject_id %in% pData_Covid,]
+
+subject_vector <- sort(unique(count_proteomics$subject_id))
+count_process <- count_proteomics[,c("subject_id", "Assay", "NPX")]
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+# loop to convert into count matrix proteomics
+
+for (i in 1:length(subject_vector)) {
+  
+  if (i == 1) {
+    
+    count_table <- filter(count_process, subject_id == subject_vector[i] )
+    names(count_table)[names(count_table) == "NPX"] <- subject_vector[i]
+    rownames(count_table) <- make.names(count_table$Assay, unique = T)
+    count_table <- subset(count_table, select=-c(1,2))
+  } else {
+    
+    x <- filter(count_process, subject_id == subject_vector[i] )
+    names(x)[names(x) == "NPX"] <- subject_vector[i]
+    rownames(x) <- make.names(x$Assay, unique = T)
+    x <- subset(x, select=-c(1,2))
+    count_table <- merge(count_table,x, by = 0)
+    rownames(count_table) <- count_table$Row.names
+    count_table <- count_table[,-1]
+    #print(dim(count_table))
+  
+    
+    }
+}
+
+count_table$genes <- rownames(count_table)
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+## filter proteins and metadata
+
+count_table <- filter(count_table, genes != "IL6.1")
+count_table <- filter(count_table, genes != "IL6.2")
+count_table <- filter(count_table, genes != "IL6.3")
+
+count_table <- filter(count_table, genes != "CXCL8.1")
+count_table <- filter(count_table, genes != "CXCL8.2")
+count_table <- filter(count_table, genes != "CXCL8.3")
+
+count_table <- filter(count_table, genes != "TNF.1")
+count_table <- filter(count_table, genes != "TNF.2")
+count_table <- filter(count_table, genes != "TNF.3")
+
+count_table <- subset(count_table, select = -c(genes))
+
+expression <- as.matrix(count_table)
+
+pData <- pData[pData$subject_id %in% colnames(expression),]
+rownames(pData) <- pData$subject_id
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+## prepare for ExpressionSet
+all(colnames(expression)==rownames(pData)) # SHOULD BE TRUE
+pData <- pData[c('subject_id', "Acuity_0")]
+colnames(pData) <- c("Sample_id", "Condition")
+
+pData_annot <- new("AnnotatedDataFrame", data = pData)
+
+net_eset <- ExpressionSet(assayData = expression, phenoData = pData_annot)
+
+save(net_eset, file=sprintf("%s/ProteomicsExpressionSet.RData", output_dir))
+
+```
+
+#### Mayo
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+# Directory of work
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+output_dir <- sprintf("%s/2.Preprocessing/Mayo", main_dir)
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+setwd(sprintf("%s/1.Raw_files/Mayo/", main_dir))
+
+expression <- read.xlsx("MC_raw.xlsx")
+rownames(expression) <- expression$Sample
+expression <- na.omit(expression)
+
+expression <- filter(expression, WHOscale != 0)
+
+pData <- expression[,1:2]
+expression <- expression[,-c(1:2)]
+
+colnames(pData) <- c("subject_id", "Acuity")
+
+pData$Acuity <- str_replace_all(pData$Acuity, "1", "NonSevere")
+pData$Acuity <- str_replace_all(pData$Acuity, "2", "NonSevere")
+pData$Acuity <- str_replace_all(pData$Acuity, "3", "Severe")
+pData$Acuity <- str_replace_all(pData$Acuity, "4", "Severe")
+pData$Acuity <- str_replace_all(pData$Acuity, "5", "Severe")
+pData$Acuity <- str_replace_all(pData$Acuity, "6", "Severe")
+pData$Acuity <- str_replace_all(pData$Acuity, "7", "Severe")
+pData$Acuity <- str_replace_all(pData$Acuity, "8", "Severe")
+
+expression <- as.matrix(t(expression))
+
+colnames(pData) <- c("Sample_id", "Condition")
+pData_annot <- new("AnnotatedDataFrame", data = pData)
+
+all(colnames(expression)==rownames(pData)) # SHOULD BE TRUE
+
+net_eset <- ExpressionSet(assayData = expression, phenoData = pData_annot)
+
+save(net_eset, file=sprintf("%s/ProteomicsExpressionSet.RData", output_dir))
+
+```
+
+#### Stanford
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+# Directory of work
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+output_dir <- sprintf("%s/2.Preprocessing/Stanford", main_dir)
+```
+
+```{r, warning=FALSE, message=FALSE}
+setwd(sprintf("%s/1.Raw_files/Stanford/", main_dir))
+
+## load / fix pheno data
+
+pData <- read.csv("PatientCharacteristics.csv", sep = ",", header = T)
+
+pData <- pData[c('sampleID','Severity')]
+
+pData_Covid <- filter(pData, Severity != "Healthy")
+pData_Covid <- pData_Covid$sampleID
+
+## load counts, metafile, features
+
+count_proteomics <- read.csv("Olink_NPXvalues.csv", sep = ",", header = T)
+
+count_proteomics_covid <- count_proteomics[count_proteomics$SampleID %in% pData_Covid,]
+
+count_proteomics <- count_proteomics_covid
+
+# make count table
+
+subject_vector <- sort(unique(count_proteomics$SampleID))
+count_process <- count_proteomics[,c("SampleID", "Assay", "NPX")]
+
+for (i in 1:length(subject_vector)) {
+  
+  if (i == 1) {
+    
+    count_table <- filter(count_process, SampleID == subject_vector[i])
+    names(count_table)[names(count_table) == "NPX"] <- subject_vector[i]
+    rownames(count_table) <- make.names(count_table$Assay, unique = T)
+    count_table <- subset(count_table, select=-c(1,2))
+  } else {
+    
+    x <- filter(count_process, SampleID == subject_vector[i] )
+    names(x)[names(x) == "NPX"] <- subject_vector[i]
+    rownames(x) <- make.names(x$Assay, unique = T)
+    x <- subset(x, select=-c(1,2))
+    count_table <- merge(count_table,x, by = 0)
+    rownames(count_table) <- count_table$Row.names
+    count_table <- count_table[,-1]
+    #print(dim(count_table))
+    
+    
+  }
+}
+
+count_table$genes <- rownames(count_table)
+
+count_table <- filter(count_table, genes != "IL6.1")
+count_table <- filter(count_table, genes != "IL6.2")
+count_table <- filter(count_table, genes != "IL6.3")
+
+count_table <- filter(count_table, genes != "CXCL8.1")
+count_table <- filter(count_table, genes != "CXCL8.2")
+count_table <- filter(count_table, genes != "CXCL8.3")
+
+count_table <- filter(count_table, genes != "TNF.1")
+count_table <- filter(count_table, genes != "TNF.2")
+count_table <- filter(count_table, genes != "TNF.3")
+
+count_table <- subset(count_table, select = -c(genes))
+
+expression <- as.matrix(count_table)
+
+pData <- pData[pData$sampleID %in% colnames(expression),]
+rownames(pData) <- pData$sampleID
+
+pData$Severity <- str_replace_all(pData$Severity, "Asymptomatic", "NonSevere")
+pData$Severity <- str_replace_all(pData$Severity, "Mild", "NonSevere")
+pData$Severity <- str_replace_all(pData$Severity, "Moderate", "NonSevere")
+pData$Severity <- str_replace_all(pData$Severity, "Severe", "Severe")
+
+colnames(pData) <- c("Sample_id", "Condition")
+pData <- pData[order(pData$Sample_id,decreasing=FALSE),]
+## prepare for ExpressionSet
+
+all(colnames(expression)==rownames(pData)) # SHOULD BE TRUE
+
+pData_annot <- new("AnnotatedDataFrame", data = pData)
+
+net_eset <- ExpressionSet(assayData = expression, phenoData = pData_annot)
+
+save(net_eset, file=sprintf("%s/ProteomicsExpressionSet.RData", output_dir))
+
+```
+
+## 2) Network Reconstruction
+
+The preprocessing 3 bulk proteomics datasets, stored as ExpressionSet formats (Biobase package).
+
+These steps should be run for each dataset each time
+
+### 2.1) Libraries
+
+```{r, warning=FALSE, message=FALSE}
+library(NetBID2)
+library(tidyverse)
+```
+
+### 2.2) Dataset
+
+```{r, warning=FALSE, message=FALSE}
+rm(list=ls())
+# load directories
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+
+## Select which dataset you run
+
+dataset <- "MGH" # MGH / Mayo / Stanford each time
+
+output_dir <- sprintf("%s/2.Preprocessing/%s", main_dir, dataset) # MGH
+load(sprintf("%s/ProteomicsExpressionSet.RData", output_dir))
+```
+
+First, we create the NetBID2 object:
+
+The **NetBID2 object** is a NetBID2 pipeline format, which structures all the information into files and directories.
+
+```{r, warning=FALSE, message=FALSE}
+
+## Create the appropriate environment for NetBID input / output files
+
+project_main_dir <- sprintf("%s/3.NetBID2/%s", main_dir, dataset)
+project_name <- "project"
+
+network.par  <- NetBID.network.dir.create(project_main_dir=project_main_dir,project_name=project_name)
+
+network.par$net.eset <- net_eset
+
+NetBID.saveRData(network.par = network.par,step='exp-load')
+```
+
+### 2.3) Normalization and Quality Control (QC) filtering
+
+```{r, warning=FALSE, message=FALSE}
+
+# load outputs from previous step
+NetBID.loadRData(network.par = network.par,step='exp-load')
+# Extract count matrix from ExpressionSet object
+mat <- exprs(network.par$net.eset)
+
+# Perform Normalization
+mat <- limma::normalizeQuantiles(mat)
+
+# Filtering out of genes with very low expression values (in the bottom 5%) in most samples (more than 90%)
+mat <- mat[(apply(mat<= quantile(mat, probs = 0.05), 1, sum)<= ncol(mat) * 0.90),]
+
+# Recreate NetBID2 object with converted count matrix
+## Recreate ExpressionSet object
+net_eset <- generate.eset(exp_mat=mat,
+                          phenotype_info=pData(network.par$net.eset)[colnames(mat),],
+                          feature_info=fData(network.par$net.eset)[rownames(mat),],
+                          annotation_info=annotation(network.par$net.eset))
+
+## Recreate NetBID2 object
+network.par$net.eset <- net_eset
+
+# Save the object
+NetBID.saveRData(network.par = network.par,step='exp-QC')
+NetBID.loadRData(network.par = network.par,step='exp-QC')
+```
+
+### 2.4) Create SJARACNe object
+
+It is mandatory for SJARACNe algorithm to create a list of proteins that are more valuable in the system. User is able to use a list of transcription factors and signaling proteins, based on MsigDB. For that reason, in this step NetBID2 create two list of those proteins that acts as transcription factors and signaling proteins, respectively.
+
+```{r, warning=FALSE, message=FALSE}
+# Load database for annotation
+db.preload(use_level='gene',use_spe='human',update=FALSE)
+
+# Converts gene ID into the corresponding TF/SIG list
+use_gene_type <- 'hgnc_symbol' # user-defined based on biomaRt
+use_genes <- rownames(fData(network.par$net.eset))
+
+# Extract a list with trancription factors and signalling proteins based on dataset
+use_list  <- get.TF_SIG.list(use_genes,use_gene_type=use_gene_type)
+
+# Create SJARACNe Object
+phe <- pData(network.par$net.eset)
+use.samples <- rownames(phe)
+prj.name <- network.par$project.name
+SJAracne.prepare(eset=network.par$net.eset,use.samples=use.samples,
+                 TF_list=use_list$tf,SIG_list=use_list$sig,
+                 IQR.thre = 0,IQR.loose_thre = 0,
+                 SJAR.project_name=prj.name,SJAR.main_dir=network.par$out.dir.SJAR)
+```
+
+## 3) Run SJARACNe
+
+SJARACNe algorithm runs two times. The first one take into account those proteins that acts as a transcription factors, and the second one as signaling proteins.
+
+```         
+## Run in bash terminal by using python scripts
+# For Transcription Factors
+# sjaracne local \
+-n 100 \
+-e ./Pipeline/3.NetBID2/MGH/project/SJAR/project/input.exp \
+-g ./Pipeline/3.NetBID2/MGH/project/SJAR/project/tf.txt \
+-o ./Pipeline/3.NetBID2/MGH/project/SJAR/project/output_tf_sjaracne_project_out_.final
+
+# For Signaling Proteins
+# sjaracne local \
+-n 100 \
+-e ./Pipeline/3.NetBID2/MGH/project/SJAR/project/input.exp \
+-g ./Pipeline/3.NetBID2/MGH/project/SJAR/project/sig.txt \
+-o ./Pipeline/3.NetBID2/MGH/project/SJAR/project/output_sig_sjaracne_project_out_.final
+```
+
+## 4) Driver Inferences
+
+```{r, warning=FALSE, message=FALSE}
+rm(list=ls())
+# load directories
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+## Select which dataset you run
+dataset <- "MGH" # MGH / Mayo / Stanford each time
+
+# Input parameter
+comp_name <- 'Severe.Vs.NonSevere' # Comparison Name
+sit_1 <- 'Severe' # Cases name
+sit_0 <- 'NonSevere' # Control name
+Condition <- "Condition" # Condition column name
+
+# For NetBID2 Object
+network.dir <- sprintf("%s/3.NetBID2/%s/project", main_dir, dataset)
+network.project.name <- "project"
+project_main_dir <- "Driver_output"
+project_name <- "driver_project"
+
+```
+
+### 4.1) Calculate Activity values
+
+In this step, NetBID2 adjusts the count values of the expression matrix into a new activity values, based on Mutual Information (MI) that SJARACNe estimate between proteins.
+
+As a result, we have an activity matrix that contain all proteins as both transcription factors and signaling proteins.
+
+```{r, warning=FALSE, message=FALSE}
+setwd(sprintf("%s/3.NetBID2/%s/", main_dir, dataset))
+
+analysis.par  <- NetBID.analysis.dir.create(project_main_dir=project_main_dir,
+                                        project_name=project_name,
+                                        network_dir=network.dir,
+                                        network_project_name=network.project.name)
+
+# Load NetBID2 Object
+load(sprintf('%s/DATA/network.par.Step.exp-QC.RData',network.dir))
+analysis.par$cal.eset <- network.par$net.eset
+
+NetBID.saveRData(analysis.par=analysis.par,step='exp-QC')
+NetBID.loadRData(analysis.par=analysis.par,step='exp-QC')
+
+# Impute transcription factors SJARACNe run in NetBID2 Object
+analysis.par$tf.network <- get.SJAracne.network(
+                                    network_file=analysis.par$tf.network.file)
+
+# Impute signaling proteins SJARACNe run in NetBID2 Object
+analysis.par$sig.network <- get.SJAracne.network(
+                                    network_file=analysis.par$sig.network.file)
+
+# Merge transcription factors and signaling proteins runs' values into a table
+analysis.par$merge.network <- merge_TF_SIG.network(
+          TF_network=analysis.par$tf.network,SIG_network=analysis.par$sig.network)
+
+# Calculate Activity values
+ac_mat <- cal.Activity(
+                       target_list=analysis.par$merge.network$target_list,
+                       cal_mat=exprs(analysis.par$cal.eset),
+                       es.method='weightedmean'
+                       )
+
+# Recreate NetBID2 Object
+analysis.par$merge.ac.eset <- generate.eset(
+  exp_mat=ac_mat,
+  phenotype_info=pData(analysis.par$cal.eset)[colnames(ac_mat),],
+  feature_info=NULL,annotation_info='activity in net-dataset'
+  )
+
+# Save
+NetBID.saveRData(analysis.par=analysis.par,step='act-get')
+```
+
+### 4.2) Differential Expression -- Differential Activity
+
+Run Bayesian algorthm that NetBID2 for differential analyses for both expression and activity matrix.
+
+```{r, warning=FALSE, message=FALSE}
+setwd(sprintf("%s/3.NetBID2/%s/", main_dir, dataset))
+
+analysis.par$DE <- list()
+analysis.par$DA <- list()
+
+# load meta-data
+phe_info <- pData(analysis.par$cal.eset)
+
+# cases samples
+G1  <- rownames(phe_info)[which(phe_info[[Condition]]==sit_1)]
+
+# control samples
+G0  <- rownames(phe_info)[which(phe_info[[Condition]]==sit_0)]
+
+# Differential Expression based on Bayesian algorithm
+DE_gene_bid <- getDE.BID.2G(
+            eset=analysis.par$cal.eset,
+            G1=G1,
+            G0=G0,
+            G1_name=sit_1,
+            G0_name=sit_0
+            )
+
+# Differential Activity based on Bayesian algorithm
+DA_driver_bid   <- getDE.BID.2G(
+            eset=analysis.par$merge.ac.eset,
+            G1=G1,
+            G0=G0,
+            G1_name=sit_1,
+            G0_name=sit_0
+            )
+
+# save results into NetBID2 Object
+analysis.par$DE[[comp_name]] <- DE_gene_bid
+analysis.par$DA[[comp_name]] <- DA_driver_bid
+
+# Save
+NetBID.saveRData(analysis.par=analysis.par,step='act-DA')
+```
+
+### 4.3) Save Count/Activity matrices & Results
+
+Both transcription factor and signaling proteins results are the same and for that reason we kept only the signaling protein table, instead of both of them.
+
+```{r, warning=FALSE, message=FALSE}
+rm(list=ls())
+# load directories
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+## Select which dataset you run
+dataset <- "MGH" # MGH / Mayo / Stanford each time
+```
+
+```{r, warning=FALSE, message=FALSE}
+setwd(sprintf("%s/3.NetBID2/%s", main_dir, dataset))
+
+## load NetBID2 results
+comp_name <- 'Severe.Vs.NonSevere'
+sit_1 <- 'Severe'
+sit_0 <- 'NonSevere'
+Condition <- "Condition"
+
+network.dir <- sprintf("%s/3.NetBID2/%s/project", main_dir, dataset)
+network.project.name <- "project"
+
+analysis.par <- list()
+
+analysis.par$out.dir.DATA <- sprintf("%s/3.NetBID2/%s/Driver_output/driver_project/DATA", 
+                                     main_dir, 
+                                     dataset) 
+
+NetBID.loadRData(analysis.par=analysis.par,step='act-DA')
+
+# 
+ac_matrix <- as.data.frame(exprs(analysis.par$merge.ac.eset))
+ac_matrix$ID <- rownames(ac_matrix)
+ac_matrix$ID <- str_replace_all(ac_matrix$ID, "_SIG", "")
+ac_matrix$ID <- str_replace_all(ac_matrix$ID, "_TF", "")
+
+ac_matrix <- ac_matrix[!duplicated(ac_matrix[,c("ID")]),]
+rownames(ac_matrix) <- ac_matrix$ID
+ac_matrix <- subset(ac_matrix, select = -c(ID))
+
+write.csv(ac_matrix, 
+          file = sprintf("%s/4.Matrices/Activity/%s/activity_matrix.csv", 
+                         main_dir, dataset),
+          row.names = T, 
+          quote = F)
+
+count_matrix <- as.data.frame(exprs(analysis.par$cal.eset))
+
+write.csv(count_matrix, 
+          file = sprintf("%s/4.Matrices/Expression/%s/count_matrix.csv", 
+                         main_dir, dataset),
+          row.names = T, 
+          quote = F)
+
+metadata <- as.data.frame(pData(analysis.par$cal.eset))
+
+write.csv(metadata, 
+          file = sprintf("%s/4.Matrices/MetaData/%s/metadata.csv", 
+                         main_dir, dataset),
+          row.names = F, 
+          quote = F)
+
+# save DE / DA results
+
+write.csv(analysis.par$DE$Severe.Vs.NonSevere, 
+          file = sprintf("%s/5.Results/Expression/%s/DE.csv", 
+                         main_dir, dataset),
+          row.names = F, 
+          quote = F)
+
+DA <- analysis.par$DA$Severe.Vs.NonSevere
+DA$ID <- str_replace_all(DA$ID, "_SIG", "")
+DA$ID <- str_replace_all(DA$ID, "_TF", "")
+
+DA <- DA[!duplicated(DA[,c("ID")]),]
+rownames(DA) <- DA$ID
+
+write.csv(DA, 
+          file = sprintf("%s/5.Results/Activity/%s/DA.csv", 
+                         main_dir, dataset),
+          row.names = F, 
+          quote = F)
+```
+
+## 5) Create files for PASNet
+
+### 5.1) Save significant drivers from DE / DA
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+dataset <- "MGH" # MGH / Mayo / Stanford each time
+mkdir(sprintf("%s/6.Overlaps/Activity/%s", main_dir, dataset))
+mkdir(sprintf("%s/6.Overlaps/Expression/%s", main_dir, dataset))
+
+
+# Create list with common significant DA drivers
+
+res <- read.csv(sprintf("%s/5.Results/Activity/%s/DA.csv", main_dir, dataset))
+res <- filter(res, adj.P.Val < 0.05)
+res_neg <- filter(res, Z.statistics < 0)
+res_pos <- filter(res, Z.statistics > 0)
+res_total <- rbind(res_neg, res_pos)
+
+write.table(res_pos$ID, 
+            sprintf("%s/6.Overlaps/Activity/%s/%s_pos.txt", 
+                    main_dir, 
+                    dataset,
+                    dataset),
+            row.names = F, 
+            quote = F)
+
+write.table(res_neg$ID, 
+            sprintf("%s/6.Overlaps/Activity/%s/%s_neg.txt", 
+                    main_dir, 
+                    dataset,
+                    dataset),
+            row.names = F, 
+            quote = F)
+
+write.table(res_total$ID, 
+            sprintf("%s/6.Overlaps/Activity/%s/all.txt", 
+                    main_dir, 
+                    dataset,
+                    dataset),
+            row.names = F, 
+            quote = F)
+
+# Create list with common significant DA drivers
+
+res <- read.csv(sprintf("%s/5.Results/Expression/%s/DE.csv", main_dir, dataset))
+res <- filter(res, adj.P.Val < 0.05)
+res_neg <- filter(res, Z.statistics < 0)
+res_pos <- filter(res, Z.statistics > 0)
+res_total <- rbind(res_neg, res_pos)
+
+write.table(res_pos$ID, 
+            sprintf("%s/6.Overlaps/Expression/%s/pos.txt", 
+                    main_dir, 
+                    dataset),
+            row.names = F, 
+            quote = F)
+
+write.table(res_neg$ID, 
+            sprintf("%s/6.Overlaps/Expression/%s/neg.txt", 
+                    main_dir, 
+                    dataset),
+            row.names = F, 
+            quote = F)
+
+write.table(res_total$ID, 
+            sprintf("%s/6.Overlaps/Expression/%s/all.txt", 
+                    main_dir, 
+                    dataset),
+            row.names = F, 
+            quote = F)
+```
+
+### 5.2) Find Overlaps
+
+For the purpose of our analysis, it is necessary to find those genes that are statistically significant in both 3 datasets.
+
+#### 5.2.1) Differential Activity
+
+```{r, warning=FALSE, message=FALSE}
+
+library(patchwork)
+library(ggplotify)
+library(tidyverse)
+library(ggvenn)
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+mkdir(sprintf("%s/6.Overlaps/Overlaps_Activity", main_dir))
+
+mgh_pos <- read.table(sprintf("%s/6.Overlaps/Activity/MGH/MGH_pos.txt",
+                              main_dir), header = T)
+mgh_pos <- mgh_pos$x
+mayo_pos <- read.table(sprintf("%s/6.Overlaps/Activity/Mayo/Mayo_pos.txt", 
+                              main_dir), header = T)
+mayo_pos <- mayo_pos$x
+stanford_pos <- read.table(sprintf("%s/6.Overlaps/Activity/Stanford/Stanford_pos.txt",
+                              main_dir), header = T)
+stanford_pos <- stanford_pos$x
+
+mgh_mayo_pos <- mgh_pos[mgh_pos %in% mayo_pos]
+all_pos <- mgh_mayo_pos[mgh_mayo_pos %in% stanford_pos]
+
+mgh_neg <- read.table(sprintf("%s/6.Overlaps/Activity/MGH/MGH_neg.txt",
+                              main_dir), header = T)
+mgh_neg <- mgh_neg$x
+mayo_neg <- read.table(sprintf("%s/6.Overlaps/Activity/Mayo/Mayo_neg.txt", 
+                              main_dir), header = T)
+mayo_neg <- mayo_neg$x
+stanford_neg <- read.table(sprintf("%s/6.Overlaps/Activity/Stanford/Stanford_neg.txt",
+                              main_dir), header = T)
+stanford_neg <- stanford_neg$x
+
+mgh_mayo_neg <- mgh_neg[mgh_neg %in% mayo_neg]
+all_neg <- mgh_mayo_neg[mgh_mayo_neg %in% stanford_neg]
+
+all <- c(all_pos, all_neg)
+
+write.table(all_pos, 
+            sprintf("%s/6.Overlaps/Overlaps_Activity/pos.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all_neg, 
+            sprintf("%s/6.Overlaps/Overlaps_Activity/neg.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all, 
+            sprintf("%s/6.Overlaps/Overlaps_Activity/common.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+```
+
+#### 5.2.2) Differential Expression
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+mkdir(sprintf("%s/6.Overlaps/Overlaps_Expression", main_dir))
+
+mgh_pos <- read.table(sprintf("%s/6.Overlaps/Expression/MGH/pos.txt",
+                              main_dir), header = T)
+mgh_pos <- mgh_pos$x
+mayo_pos <- read.table(sprintf("%s/6.Overlaps/Expression/Mayo/pos.txt", 
+                              main_dir), header = T)
+mayo_pos <- mayo_pos$x
+stanford_pos <- read.table(sprintf("%s/6.Overlaps/Expression/Stanford/pos.txt",
+                              main_dir), header = T)
+stanford_pos <- stanford_pos$x
+
+mgh_mayo_pos <- mgh_pos[mgh_pos %in% mayo_pos]
+all_pos <- mgh_mayo_pos[mgh_mayo_pos %in% stanford_pos]
+
+mgh_neg <- read.table(sprintf("%s/6.Overlaps/Expression/MGH/neg.txt",
+                              main_dir), header = T)
+mgh_neg <- mgh_neg$x
+mayo_neg <- read.table(sprintf("%s/6.Overlaps/Expression/Mayo/neg.txt", 
+                              main_dir), header = T)
+mayo_neg <- mayo_neg$x
+stanford_neg <- read.table(sprintf("%s/6.Overlaps/Expression/Stanford/neg.txt",
+                              main_dir), header = T)
+stanford_neg <- stanford_neg$x
+
+mgh_mayo_neg <- mgh_neg[mgh_neg %in% mayo_neg]
+all_neg <- mgh_mayo_neg[mgh_mayo_neg %in% stanford_neg]
+
+all <- c(all_pos, all_neg)
+
+write.table(all_pos, 
+            sprintf("%s/6.Overlaps/Overlaps_Expression/pos.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all_neg, 
+            sprintf("%s/6.Overlaps/Overlaps_Expression/neg.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all, 
+            sprintf("%s/6.Overlaps/Overlaps_Expression/common.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+```
+
+## 6 Use EnrichR KG and Create Inputs for PASNet (Activity Matrices)
+
+Overlapped proteins were load into EnrichR KG in order to find correlation of those proteins with specific pathways (<https://maayanlab.cloud/enrichr-kg>). We decided to use 4 different databases (Reactome, Gene Ontology, KEGG, and Wikipathways), with at least 30 pathways per database. The downloaded file contain information for each protein that participate in each pathway.
+
+### 6.1) Convert EnrichR KG outputs into apropriate format
+
+```{r, warning=FALSE, message=FALSE}
+library(openxlsx)
+rm(list=ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+mkdir(sprintf("%s/7.PASNet", main_dir))
+mkdir(sprintf("%s/7.PASNet/Activity", main_dir))
+mkdir(sprintf("%s/7.PASNet/Activity/Inputs", main_dir))
+
+
+## Load EnrichR-KG downloaded list
+
+up <- read.table(sprintf("%s/EnrichR_KG/Activity/edges_pos.tsv", 
+                         main_dir), 
+                 header = T, 
+                 sep = "\t")
+
+down <- read.table(sprintf("%s/EnrichR_KG/Activity/edges_neg.tsv", 
+                         main_dir), 
+                 header = T, 
+                 sep = "\t")
+
+up <- subset(up, select= c(source_label, target_label))
+down <- subset(down, select= c(source_label, target_label))
+
+vector <- unique(c(up$target_label, down$target_label))
+write.table(vector, sprintf("%s/7.PASNet/Activity/Inputs/vector.txt", 
+                            main_dir),
+            row.names = F,
+            quote = F)
+
+up_conv <-  up %>% group_by(source_label) %>% 
+  summarise_all(funs(paste(na.omit(.), collapse = ";")))
+down_conv <-  down %>% group_by(source_label) %>% 
+  summarise_all(funs(paste(na.omit(.), collapse = ";")))
+
+all <- rbind(down_conv,up_conv)
+
+write.xlsx(all, sprintf("%s/7.PASNet/Activity/Inputs/pt.xlsx", 
+                        main_dir), 
+           rowNames = F)
+
+```
+
+### 6.2) Filter proteins that participate in pathways For PASNet
+
+We keep only those proteins that participate in the downloaded pathways from EnrichR KG.
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+dataset = "MGH" # MGH / Mayo / Stanford each time
+
+matrix <- read.csv(sprintf("%s/4.Matrices/Activity/%s/activity_matrix.csv", 
+                         main_dir, dataset),
+                   header = T, row.names = 1)
+vector <- read.table(sprintf("%s/7.PASNet/Activity/Inputs/vector.txt", 
+                        main_dir), header = T)
+colnames(matrix) <- str_remove_all(colnames(matrix), "X")
+
+matrix <- matrix[rownames(matrix) %in% vector$x,]
+
+matrix <- as.data.frame(t(matrix))
+pheno <- read.csv(sprintf("%s/4.Matrices/MetaData/%s/metadata.csv",
+                          main_dir, dataset, dataset),
+                  header = T, row.names = 1)
+matrix <- merge(matrix, pheno, by = 0)
+rownames(matrix) <- matrix$Row.names
+matrix <- subset(matrix, select = -c(Row.names))
+
+matrix$Condition <- str_replace_all(matrix$Condition, "NonSevere", "0")
+matrix$Condition <- str_replace_all(matrix$Condition, "Severe", "1")
+
+write.csv(matrix, file = sprintf("%s/7.PASNet/Activity/Inputs/%s.csv", main_dir, dataset),
+          row.names = T, 
+          quote = F)
+
+
+```
+
+## 7 Use EnrichR KG and Create Inputs for PASNet (Expression Matrices)
+
+Overlapped proteins were load into EnrichR KG in order to find correlation of those proteins with specific pathways (<https://maayanlab.cloud/enrichr-kg>). We decided to use 4 different databases (Reactome, Gene Ontology, KEGG, and Wikipathways), with at least 30 pathways per database. The downloaded file contain information for each protein that participate in each pathway.
+
+### 7.1) Convert EnrichR KG outputs into apropriate format
+
+```{r, warning=FALSE, message=FALSE}
+library(openxlsx)
+rm(list=ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+mkdir(sprintf("%s/7.PASNet/Expression", main_dir))
+mkdir(sprintf("%s/7.PASNet/Expression/Inputs", main_dir))
+
+
+## Load EnrichR-KG downloaded list
+
+up <- read.table(sprintf("%s/EnrichR_KG/Expression/edges_pos.tsv", 
+                         main_dir), 
+                 header = T, 
+                 sep = "\t")
+
+down <- read.table(sprintf("%s/EnrichR_KG/Expression/edges_neg.tsv", 
+                         main_dir), 
+                 header = T, 
+                 sep = "\t")
+
+up <- subset(up, select= c(source_label, target_label))
+down <- subset(down, select= c(source_label, target_label))
+
+vector <- unique(c(up$target_label, down$target_label))
+write.table(vector, sprintf("%s/7.PASNet/Expression/Inputs/vector.txt", 
+                            main_dir),
+            row.names = F,
+            quote = F)
+
+up_conv <-  up %>% group_by(source_label) %>% 
+  summarise_all(funs(paste(na.omit(.), collapse = ";")))
+down_conv <-  down %>% group_by(source_label) %>% 
+  summarise_all(funs(paste(na.omit(.), collapse = ";")))
+
+all <- rbind(down_conv,up_conv)
+
+write.xlsx(all, sprintf("%s/7.PASNet/Expression/Inputs/pt.xlsx", 
+                        main_dir), 
+           rowNames = F)
+
+```
+
+### 7.2) Filter proteins that participate in pathways For PASNet
+
+We keep only those proteins that participate in the downloaded pathways from EnrichR KG.
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1"
+dataset = "MGH" # MGH / Mayo / Stanford each time
+
+matrix <- read.csv(sprintf("%s/4.Matrices/Expression/%s/count_matrix.csv", 
+                         main_dir, dataset),
+                   header = T, row.names = 1)
+vector <- read.table(sprintf("%s/7.PASNet/Expression/Inputs/vector.txt", 
+                        main_dir), header = T)
+colnames(matrix) <- str_remove_all(colnames(matrix), "X")
+
+matrix <- matrix[rownames(matrix) %in% vector$x,]
+
+matrix <- as.data.frame(t(matrix))
+pheno <- read.csv(sprintf("%s/4.Matrices/MetaData/%s/metadata.csv",
+                          main_dir, dataset, dataset),
+                  header = T, row.names = 1)
+matrix <- merge(matrix, pheno, by = 0)
+rownames(matrix) <- matrix$Row.names
+matrix <- subset(matrix, select = -c(Row.names))
+
+matrix$Condition <- str_replace_all(matrix$Condition, "NonSevere", "0")
+matrix$Condition <- str_replace_all(matrix$Condition, "Severe", "1")
+
+write.csv(matrix, file = sprintf("%s/7.PASNet/Expression/Inputs/%s.csv", main_dir, dataset),
+          row.names = T, 
+          quote = F)
+
+
+```
+
+# Case study #2 -- Single-cells RNAseq predictions
+
+## 1) Preprocessing Raw datasets
+
+The appropriate format as ExpressionSet should be created for NetBID2 pipeline
+
+Single cells RNAseq dataset from MGH D0, with 14 patients, were downloaded from ... and converted into Seurat format object. The appropriate format and filtering applied in order to keep Day 0 values and exclude low variable values (???). Eventually, a Sparse ExpressionSet Object created that will be as an input in scMINER.
+
+```{r, warning=FALSE, message=FALSE}
+# libraries
+library(scMINER)
+library(Seurat)
+library(SingleCellExperiment)
+library(dior)
+library(tidyverse)
+library(tidyseurat)
+library(anndata)
+library(icesTAF)
+```
+
+```{r, warning=FALSE, message=FALSE}
+# Directory of work
+mkdir("C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2")
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+mkdir(sprintf("%s/1.Raw_files", main_dir))
+mkdir(sprintf("%s/2.Preprocessing", main_dir))
+mkdir(sprintf("%s/2.Preprocessing/MICA", main_dir))
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+# Run scDIOR Python MGH.ipynb to convert h5ad MGH scRNA-seq data to h5 format to further analyze in Seurat in R
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+
+#Import from scDIOR pipeline (h5ad -----> seurat object)
+adata <- read_h5(file = './MGHdata.h5', #input from Scanpy pipeline
+                 assay.name = 'RNA', 
+                 target.object = 'seurat')
+pbmc <- adata
+rm(adata)
+
+#select COVID-19
+pbmc <- pbmc %>% filter(covid %in% "1")
+
+saveRDS(pbmc, sprintf("%s/2.Preprocessing/pbmc_SCTr.rds", main_dir))
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+# Create SparseExpressionSet
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+pbmc <- readRDS(sprintf("%s/2.Preprocessing/pbmc_SCTr.rds", main_dir))
+
+Idents(pbmc) <- 'Annotation'
+
+feature.data <- data.frame(rownames(pbmc@assays$SCT@data))
+colnames(feature.data) <- "geneSymbol"
+rownames(feature.data) <- feature.data$geneSymbol
+
+meta.data <- pbmc@meta.data
+meta.data$CellNames <- rownames(meta.data)
+
+meta.data$condition <- str_replace_all(meta.data$condition, "not severe", "NonSevere")
+meta.data$condition <- str_replace_all(meta.data$condition, "severe", "Severe")
+
+eset<-CreateSparseEset(data=pbmc@assays$SCT@data,
+                       meta.data = meta.data,
+                       feature.data = feature.data,
+                       add.meta = F)
+
+saveRDS(eset, sprintf("%s/2.Preprocessing/pbmc_eset_SCT.rds", main_dir))
+```
+
+```{r, warning=FALSE, message=FALSE}
+## Do Filtering and prepare data for MICA
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+
+pbmc.eset <- readRDS(sprintf("%s/2.Preprocessing/pbmc_eset_SCT.rds", main_dir))
+
+norm = 1e6
+exp.norm <- sweep(exprs(pbmc.eset), 2,
+                  norm/unname(Matrix::colSums(exprs(pbmc.eset))), '*')
+
+exp.log2 <- log(exp.norm + 1, base = 2)
+
+pbmc.eset.log2 <- CreateSparseEset(data = exp.log2,
+                                       meta.data = pData(pbmc.eset),
+                                       add.meta = F)
+
+scMINER::generateMICAinput(eset = pbmc.eset.log2, 
+                           filepath = sprintf("%s/2.Preprocessing/MICA/PBMC_MICA_input_Seurat.txt", main_dir))
+saveRDS(pbmc.eset.log2, file = sprintf("%s/2.Preprocessing/pbmc_eset_SCT_log2.rds", main_dir))
+
+```
+
+## 2) Run MICA
+
+```{r, warning=FALSE, message=FALSE}
+## RUN MICA
+# mica -i ./MICA/Outputs/PBMC_MICA_input_Seurat.txt \
+# -p PBMC \
+# -k 2 3 4 5 6 7 8 9 10 \
+# -o ./MICA/ \
+```
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+
+pbmc.eset.log2 <- readRDS(sprintf("%s/2.Preprocessing/pbmc_eset_SCT_log2.rds", main_dir))
+
+
+## According to the silhuette avg the most variable MICA output is 20_4.0552
+
+
+
+pbmc_eset.log2_mica <- readMICAoutput(eset = pbmc.eset.log2,
+                                 load_ClusterRes = TRUE,
+                                 output_file = sprintf("%s/2.Preprocessing/MICA/Outputs/clustering_UMAP_euclidean_20_4.0552.txt", main_dir))
+
+MICAplot(input_eset = pbmc_eset.log2_mica, X = "X", Y = "Y", color_by = "ClusterRes", pct = 0.5)
+
+saveRDS(pbmc_eset.log2_mica, 
+        file = sprintf("%s/2.Preprocessing/pbmc_eset_SCT_log2_mica.rds", main_dir))
+
+
+```
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+pbmc.eset.log2_mica <- readRDS(sprintf("%s/2.Preprocessing/pbmc_eset_SCT_log2_mica.rds", main_dir))
+
+
+generateSJARACNeInput(
+  input_eset = pbmc.eset.log2_mica, 
+  funcType = "TF", 
+  ref = "hg",  #mouse
+  wd.src = sprintf("%s/3.SJAR/SJAR_tf", main_dir),  #Output directory
+  group_name = "condition")
+
+```
+
+## 3) Run SJARACNe
+
+```{r, warning=FALSE, message=FALSE}
+## RUN SJARACNe
+
+#sjaracne -e ./3.SJAR/SJAR_tf/NonSevere_11778_11778_5144/NonSevere_11778_11778_5144.exp \
+#         -g ./3.SJAR/SJAR_tf/NonSevere_11778_11778_5144/tf/NonSevere_1047_1047_5144_tf.txt \
+#         -o ./3.SJAR/SJAR_tf/NonSevere_11778_11778_5144/tf/
+#         -pc 0.01
+
+#sjaracne -e ./3.SJAR/SJAR_tf/Severe_10801_10801_1521/Severe_10801_10801_1521.exp \
+#         -g ./3.SJAR/SJAR_tf/Severe_10801_10801_1521/tf/Severe_10801_10801_1521_tf.txt \
+#         -o ./3.SJAR/SJAR_tf/Severe_10801_10801_1521/tf/
+#         -pc 0.01
+```
+
+## 4) Calculation Activity
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+source(sprintf("%s/1.Raw_files/GetActivityFromSJARACNe.R"))
+pbmc.eset.log2_mica <- readRDS(sprintf("%s/2.Preprocessing/pbmc_eset_SCT_log2_mica.rds", main_dir))
+
+## load fixed function GetActivityFromSJARACNe
+## create a networks_tf folder in directory
+
+acs.SevereNonSevere_tf <- GetActivityFromSJARACNe(
+  SJARACNe_output_path = sprintf("%s/3.SJAR/SJAR_tf", main_dir),
+  SJARACNe_input_eset = pbmc.eset.log2_mica,
+  activity.method = "unweighted", #'unweighted' as activity calculation method
+  activity.norm = TRUE, 
+  group_name = "condition", # which group was used to partition expression profiles
+  save_network_file=TRUE, 
+  functype = "tf",# whether or not save network for each group
+  save_path = sprintf("%s/3.SJAR/SJAR_tf", main_dir)) 
+
+save(acs.SevereNonSevere_tf, file = sprintf("%s/2.Preprocessing/activity.RData", main_dir))
+```
+
+## 5) Perform Differential Activity across Severe and NonSevere
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+mkdir(sprintf("%s/4.Results", main_dir))
+mkdir(sprintf("%s/5.Overlaps", main_dir))
+source(sprintf("%s/1.Raw_files/get.DA.R", main_dir))
+
+load(sprintf("%s/2.Preprocessing/activity.RData", main_dir))
+
+DAG_result_tf <- get.DA(input_eset = acs.SevereNonSevere_tf, 
+                         group_name = "condition")
+
+write.csv(DAG_result_tf, file = sprintf("%s/4.Results/DAG_tf.csv", main_dir), 
+          row.names = F, 
+          quote = F)
+
+DAG_result_tf <- filter(DAG_result_tf, pval_Severe < 0.05)
+res_neg <- filter(DAG_result_tf, Z_Severe < 0)
+res_neg$id <- str_remove(res_neg$id, ".TF")
+res_pos <- filter(DAG_result_tf, Z_Severe > 0)
+res_pos$id <- str_remove(res_pos$id, ".TF")
+res_total <- rbind(res_neg, res_pos)
+
+write.table(res_pos$id, 
+            sprintf("%s/5.Overlaps/scMGH_pos.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(res_neg$id, 
+            sprintf("%s/5.Overlaps/scMGH_neg.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(res_total$id, 
+            sprintf("%s/5.Overlaps/scMGH_all.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+
+```
+
+## 6) Perform Differential Expression across Severe and NonSevere
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_2"
+source(sprintf("%s/1.Raw_files/get.DA.R", main_dir))
+
+pbmc.eset_SCT <- saveRDS(eset, sprintf("%s/2.Preprocessing/pbmc_eset_SCT.rds", main_dir))
+
+DEP_result <- get.DA(input_eset = pbmc.eset_SCT, 
+                         group_name = "condition")
+
+write.csv(DEP_result, file = sprintf("%s/4.Results/DEP.csv", main_dir), 
+          row.names = F, 
+          quote = F)
+
+DEP_result <- filter(DEP_result, pval_Severe < 0.05)
+res_neg <- filter(DEP_result, Z_Severe < 0)
+res_pos <- filter(DEP_result, Z_Severe > 0)
+res_total <- rbind(res_neg, res_pos)
+
+write.table(res_pos$id, 
+            sprintf("%s/5.Overlaps/scMGH_pos_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(res_neg$id, 
+            sprintf("%s/5.Overlaps/scMGH_neg_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(res_total$id, 
+            sprintf("%s/5.Overlaps/scMGH_all_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+
+```
+
+## 7) Find Activity Overlaps with Olink MGH
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline"
+mkdir(sprintf("%s/Case_study_2/5.Overlaps/Overlaps/", main_dir))
+
+mgh_pos <- read.table(sprintf("%s/Case_study_1/6.Overlaps/Activity/MGH/MGH_pos.txt",
+                              main_dir), header = T)
+mgh_pos <- mgh_pos$x
+scmgh_pos <- read.table(sprintf("%s/Case_study_2/5.Overlaps/scMGH_pos.txt", 
+                              main_dir), header = T)
+scmgh_pos <- scmgh_pos$x
+
+all_pos <- mgh_pos[mgh_pos %in% scmgh_pos]
+
+mgh_neg <- read.table(sprintf("%s/Case_study_1/6.Overlaps/Activity/MGH/MGH_neg.txt",
+                              main_dir), header = T)
+mgh_neg <- mgh_neg$x
+scmgh_neg <- read.table(sprintf("%s/Case_study_2/5.Overlaps/scMGH_neg.txt", 
+                              main_dir), header = T)
+scmgh_neg <- scmgh_neg$x
+
+all_neg <- mgh_neg[mgh_neg %in% scmgh_neg]
+
+all <- c(all_pos, all_neg)
+
+write.table(all_pos, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/pos.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all_neg, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/neg.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/common.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+```
+
+## 8) Find Expression Overlaps with Olink MGH
+
+```{r, warning=FALSE, message=FALSE}
+
+rm(list = ls())
+main_dir <- "C:/Users/vasileioubill95/Desktop/Pipeline"
+
+mgh_pos <- read.table(sprintf("%s/Case_study_1/6.Overlaps/Expression/MGH/pos.txt",
+                              main_dir), header = T)
+mgh_pos <- mgh_pos$x
+scmgh_pos <- read.table(sprintf("%s/Case_study_2/5.Overlaps/scMGH_pos_DE.txt", 
+                              main_dir), header = T)
+scmgh_pos <- scmgh_pos$x
+
+all_pos <- mgh_pos[mgh_pos %in% scmgh_pos]
+
+mgh_neg <- read.table(sprintf("%s/Case_study_1/6.Overlaps/Expression/MGH/neg.txt",
+                              main_dir), header = T)
+mgh_neg <- mgh_neg$x
+scmgh_neg <- read.table(sprintf("%s/Case_study_2/5.Overlaps/scMGH_neg_DE.txt", 
+                              main_dir), header = T)
+scmgh_neg <- scmgh_neg$x
+
+all_neg <- mgh_neg[mgh_neg %in% scmgh_neg]
+
+all <- c(all_pos, all_neg)
+
+write.table(all_pos, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/pos_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all_neg, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/neg_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+write.table(all, 
+            sprintf("%s/Case_study_2/5.Overlaps/Overlaps/common_DE.txt", 
+                    main_dir),
+            row.names = F, 
+            quote = F)
+
+```
