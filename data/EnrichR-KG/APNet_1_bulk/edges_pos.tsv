@@ -1,0 +1,1149 @@
+source	target	relation	source_label	target_label	link_to_resource	resource
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	511a86f7-0acb-5420-a0a8-b743cd9e340b	GO BP	negative regulation of proteolysis (GO:0045861)	CST7	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	GO BP	negative regulation of proteolysis (GO:0045861)	CSTB	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	64c71d36-8115-563d-85d3-4b562bd08e70	GO BP	negative regulation of proteolysis (GO:0045861)	TRIM21	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	357d2be5-ff51-5e66-8046-5cb49028b494	GO BP	negative regulation of proteolysis (GO:0045861)	EFNA1	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	ea48238e-69f6-5692-a08d-f091f574bdd4	GO BP	negative regulation of proteolysis (GO:0045861)	TIMP1	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	GO BP	negative regulation of proteolysis (GO:0045861)	PLAT	http://geneontology.org/	Gene Ontology
+81e5569c-7bd7-5857-b917-1ba1d3ef9721	5408b46b-b609-5383-ac6a-e53ccafc01b9	GO BP	negative regulation of proteolysis (GO:0045861)	TIMP4	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	neutrophil degranulation (GO:0043312)	CTSH	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	neutrophil degranulation (GO:0043312)	LCN2	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	716d876a-f512-5748-bf63-b9399329256f	GO BP	neutrophil degranulation (GO:0043312)	CHI3L1	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	neutrophil degranulation (GO:0043312)	HSPA1A	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	ea97ef30-2f23-5f73-a96a-d16bf7113eef	GO BP	neutrophil degranulation (GO:0043312)	PLAUR	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	GO BP	neutrophil degranulation (GO:0043312)	CSTB	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	54ce9fea-a0eb-5176-862a-542cf892e6f5	GO BP	neutrophil degranulation (GO:0043312)	CHIT1	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	GO BP	neutrophil degranulation (GO:0043312)	OLR1	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	fc163631-2d26-58ab-9141-136c329dbd76	GO BP	neutrophil degranulation (GO:0043312)	S100A11	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	745164eb-2295-5487-8f34-ae4e28a0beea	GO BP	neutrophil degranulation (GO:0043312)	FABP5	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	GO BP	neutrophil degranulation (GO:0043312)	ACAA1	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	GO BP	neutrophil degranulation (GO:0043312)	CKAP4	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	23f094fe-393e-543a-89c4-93c80ba3abf7	GO BP	neutrophil degranulation (GO:0043312)	CEACAM8	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	neutrophil degranulation (GO:0043312)	AZU1	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	322a0c46-fc6d-51f9-be24-19044fafbec9	GO BP	neutrophil degranulation (GO:0043312)	RNASE3	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	055e821e-b77f-5f65-a6fd-597b9df43286	GO BP	neutrophil degranulation (GO:0043312)	PADI2	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	f4dc0041-5272-545e-b395-fed9ac71c23a	GO BP	neutrophil degranulation (GO:0043312)	RETN	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	GO BP	neutrophil degranulation (GO:0043312)	SRP14	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	neutrophil degranulation (GO:0043312)	MMP8	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	GO BP	neutrophil degranulation (GO:0043312)	CLEC5A	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	6bc3be29-b26d-592e-a9f7-da92d52784b5	GO BP	neutrophil degranulation (GO:0043312)	S100P	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	neutrophil degranulation (GO:0043312)	MNDA	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	GO BP	neutrophil degranulation (GO:0043312)	PTX3	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	GO BP	neutrophil degranulation (GO:0043312)	FCAR	http://geneontology.org/	Gene Ontology
+7e502e44-f3ea-5431-b213-e07b87e9faba	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	neutrophil degranulation (GO:0043312)	PRTN3	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	response to tumor necrosis factor (GO:0034612)	CCL20	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	response to tumor necrosis factor (GO:0034612)	GBP2	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	response to tumor necrosis factor (GO:0034612)	SFRP1	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	716d876a-f512-5748-bf63-b9399329256f	GO BP	response to tumor necrosis factor (GO:0034612)	CHI3L1	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	response to tumor necrosis factor (GO:0034612)	CCL7	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	response to tumor necrosis factor (GO:0034612)	CXCL8	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	response to tumor necrosis factor (GO:0034612)	CASP8	http://geneontology.org/	Gene Ontology
+cc53fa32-4827-516a-8f14-5e1511f516b5	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	response to tumor necrosis factor (GO:0034612)	CCL3	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	regulation of apoptotic process (GO:0042981)	AZU1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	GO BP	regulation of apoptotic process (GO:0042981)	CLEC5A	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	23247e6d-02cf-598f-8203-bb0a2cfe9677	GO BP	regulation of apoptotic process (GO:0042981)	KRT18	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	GO BP	regulation of apoptotic process (GO:0042981)	TNFRSF6B	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	c4772e91-694b-5fb4-9b10-33ba56dcf0cc	GO BP	regulation of apoptotic process (GO:0042981)	LGALS1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	ffe86b97-b41b-5dd2-bb27-dde228c68d89	GO BP	regulation of apoptotic process (GO:0042981)	NDRG1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	ea97ef30-2f23-5f73-a96a-d16bf7113eef	GO BP	regulation of apoptotic process (GO:0042981)	PLAUR	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	regulation of apoptotic process (GO:0042981)	CASP1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	6e2660fd-77ff-5731-82cb-cd9d3d099c34	GO BP	regulation of apoptotic process (GO:0042981)	JUN	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	f350ebe0-1cc8-57d6-9388-c36b245e35e2	GO BP	regulation of apoptotic process (GO:0042981)	TRIAP1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	GO BP	regulation of apoptotic process (GO:0042981)	BAX	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	regulation of apoptotic process (GO:0042981)	SFRP1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	regulation of apoptotic process (GO:0042981)	HSPA1A	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	6dceb524-e8ff-5e21-88b6-571985b3234a	GO BP	regulation of apoptotic process (GO:0042981)	TNFRSF10B	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	97291af2-f3ac-5c33-af04-4c8f459bc783	GO BP	regulation of apoptotic process (GO:0042981)	TNFRSF10A	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	regulation of apoptotic process (GO:0042981)	CTSH	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	regulation of apoptotic process (GO:0042981)	IL6	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	regulation of apoptotic process (GO:0042981)	CXCL10	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	regulation of apoptotic process (GO:0042981)	MNDA	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	99be7247-c9e0-5709-bd43-d2bc1c1d86ff	GO BP	regulation of apoptotic process (GO:0042981)	NPM1	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	regulation of apoptotic process (GO:0042981)	CASP8	http://geneontology.org/	Gene Ontology
+b49b0f57-e3e3-54ae-861f-f5ab645a0642	f1654664-25b2-52e1-875c-ed6a08621b7d	GO BP	regulation of apoptotic process (GO:0042981)	HGF	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	neutrophil migration (GO:1990266)	CXCL13	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	neutrophil migration (GO:1990266)	CCL3	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	neutrophil migration (GO:1990266)	CXCL9	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	neutrophil migration (GO:1990266)	CCL20	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	neutrophil migration (GO:1990266)	CCL7	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	neutrophil migration (GO:1990266)	CXCL8	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	neutrophil migration (GO:1990266)	PRTN3	http://geneontology.org/	Gene Ontology
+a2266bbd-7f95-5641-839b-fbcf225bbc57	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	neutrophil migration (GO:1990266)	CXCL10	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	d0ad6b41-ac06-5b4f-af53-5ad861301e44	GO BP	cellular response to cytokine stimulus (GO:0071345)	SDC1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	cellular response to cytokine stimulus (GO:0071345)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	GO BP	cellular response to cytokine stimulus (GO:0071345)	IL1RN	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	cellular response to cytokine stimulus (GO:0071345)	CXCL8	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	GO BP	cellular response to cytokine stimulus (GO:0071345)	VIM	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	cellular response to cytokine stimulus (GO:0071345)	CCL7	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	2da063ed-a355-5b5b-898a-7c034c9f9dd0	GO BP	cellular response to cytokine stimulus (GO:0071345)	IL16	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	cellular response to cytokine stimulus (GO:0071345)	OSM	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	716d876a-f512-5748-bf63-b9399329256f	GO BP	cellular response to cytokine stimulus (GO:0071345)	CHI3L1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	cellular response to cytokine stimulus (GO:0071345)	MNDA	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	cellular response to cytokine stimulus (GO:0071345)	CXCL10	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	cellular response to cytokine stimulus (GO:0071345)	LCN2	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	cellular response to cytokine stimulus (GO:0071345)	CSF1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	cellular response to cytokine stimulus (GO:0071345)	LIF	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	cellular response to cytokine stimulus (GO:0071345)	IL6	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	cellular response to cytokine stimulus (GO:0071345)	CCL3	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	cellular response to cytokine stimulus (GO:0071345)	LGALS9	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	cellular response to cytokine stimulus (GO:0071345)	GBP2	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	ea48238e-69f6-5692-a08d-f091f574bdd4	GO BP	cellular response to cytokine stimulus (GO:0071345)	TIMP1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	cellular response to cytokine stimulus (GO:0071345)	CASP1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	cellular response to cytokine stimulus (GO:0071345)	CCL20	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	f1654664-25b2-52e1-875c-ed6a08621b7d	GO BP	cellular response to cytokine stimulus (GO:0071345)	HGF	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	cellular response to cytokine stimulus (GO:0071345)	SFRP1	http://geneontology.org/	Gene Ontology
+6a290ffa-1833-5b87-80c7-f65b2aee07ab	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	cellular response to cytokine stimulus (GO:0071345)	PRTN3	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	defense response to bacterium (GO:0042742)	GBP2	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	322a0c46-fc6d-51f9-be24-19044fafbec9	GO BP	defense response to bacterium (GO:0042742)	RNASE3	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	de54cd4a-17c6-560b-98ec-aeab6c6227e1	GO BP	defense response to bacterium (GO:0042742)	WFDC2	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	GO BP	defense response to bacterium (GO:0042742)	PLA2G2A	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	defense response to bacterium (GO:0042742)	IL6	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	defense response to bacterium (GO:0042742)	AZU1	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	b84b5991-9a78-59ac-80b8-65b30d9c5f61	GO BP	defense response to bacterium (GO:0042742)	SLAMF8	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	defense response to bacterium (GO:0042742)	CXCL13	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	defense response to bacterium (GO:0042742)	TREM2	http://geneontology.org/	Gene Ontology
+1d3bc1d2-5082-54d3-8b6d-28e223bd3c07	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	defense response to bacterium (GO:0042742)	LCN2	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of inflammatory response (GO:0050729)	MMP8	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	GO BP	positive regulation of inflammatory response (GO:0050729)	PLA2G2A	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	positive regulation of inflammatory response (GO:0050729)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of inflammatory response (GO:0050729)	IL6	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	2da063ed-a355-5b5b-898a-7c034c9f9dd0	GO BP	positive regulation of inflammatory response (GO:0050729)	IL16	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	positive regulation of inflammatory response (GO:0050729)	OSM	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	12b87efe-9cd6-5e13-b762-638aa0cd405d	GO BP	positive regulation of inflammatory response (GO:0050729)	MDK	http://geneontology.org/	Gene Ontology
+e986d651-9498-52d0-a294-7c904d30522b	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of inflammatory response (GO:0050729)	CCL3	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	neutrophil mediated immunity (GO:0002446)	HSPA1A	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	GO BP	neutrophil mediated immunity (GO:0002446)	PTX3	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	322a0c46-fc6d-51f9-be24-19044fafbec9	GO BP	neutrophil mediated immunity (GO:0002446)	RNASE3	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	GO BP	neutrophil mediated immunity (GO:0002446)	OLR1	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	54ce9fea-a0eb-5176-862a-542cf892e6f5	GO BP	neutrophil mediated immunity (GO:0002446)	CHIT1	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	neutrophil mediated immunity (GO:0002446)	PRTN3	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	GO BP	neutrophil mediated immunity (GO:0002446)	CKAP4	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	GO BP	neutrophil mediated immunity (GO:0002446)	FCAR	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	23f094fe-393e-543a-89c4-93c80ba3abf7	GO BP	neutrophil mediated immunity (GO:0002446)	CEACAM8	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	6bc3be29-b26d-592e-a9f7-da92d52784b5	GO BP	neutrophil mediated immunity (GO:0002446)	S100P	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	neutrophil mediated immunity (GO:0002446)	IL6	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	GO BP	neutrophil mediated immunity (GO:0002446)	CLEC5A	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	GO BP	neutrophil mediated immunity (GO:0002446)	SRP14	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	neutrophil mediated immunity (GO:0002446)	MNDA	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	ea97ef30-2f23-5f73-a96a-d16bf7113eef	GO BP	neutrophil mediated immunity (GO:0002446)	PLAUR	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	745164eb-2295-5487-8f34-ae4e28a0beea	GO BP	neutrophil mediated immunity (GO:0002446)	FABP5	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	GO BP	neutrophil mediated immunity (GO:0002446)	CSTB	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	GO BP	neutrophil mediated immunity (GO:0002446)	ACAA1	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	neutrophil mediated immunity (GO:0002446)	CTSH	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	fc163631-2d26-58ab-9141-136c329dbd76	GO BP	neutrophil mediated immunity (GO:0002446)	S100A11	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	neutrophil mediated immunity (GO:0002446)	LCN2	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	neutrophil mediated immunity (GO:0002446)	AZU1	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	neutrophil mediated immunity (GO:0002446)	MMP8	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	055e821e-b77f-5f65-a6fd-597b9df43286	GO BP	neutrophil mediated immunity (GO:0002446)	PADI2	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	716d876a-f512-5748-bf63-b9399329256f	GO BP	neutrophil mediated immunity (GO:0002446)	CHI3L1	http://geneontology.org/	Gene Ontology
+6bd90d33-6386-5728-b2e5-d21c4a6447d1	f4dc0041-5272-545e-b395-fed9ac71c23a	GO BP	neutrophil mediated immunity (GO:0002446)	RETN	http://geneontology.org/	Gene Ontology
+380de232-c523-5aa2-9293-b28b20836b34	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	regulation of microglial cell activation (GO:1903978)	IL6	http://geneontology.org/	Gene Ontology
+380de232-c523-5aa2-9293-b28b20836b34	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	regulation of microglial cell activation (GO:1903978)	CCL3	http://geneontology.org/	Gene Ontology
+380de232-c523-5aa2-9293-b28b20836b34	511a86f7-0acb-5420-a0a8-b743cd9e340b	GO BP	regulation of microglial cell activation (GO:1903978)	CST7	http://geneontology.org/	Gene Ontology
+380de232-c523-5aa2-9293-b28b20836b34	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	regulation of microglial cell activation (GO:1903978)	TREM2	http://geneontology.org/	Gene Ontology
+380de232-c523-5aa2-9293-b28b20836b34	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	regulation of microglial cell activation (GO:1903978)	MMP8	http://geneontology.org/	Gene Ontology
+d9be7813-fd57-55ae-927b-3fff36fb380c	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	extrinsic apoptotic signaling pathway via death domain receptors (GO:0008625)	CASP8	http://geneontology.org/	Gene Ontology
+d9be7813-fd57-55ae-927b-3fff36fb380c	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	GO BP	extrinsic apoptotic signaling pathway via death domain receptors (GO:0008625)	BAX	http://geneontology.org/	Gene Ontology
+d9be7813-fd57-55ae-927b-3fff36fb380c	6dceb524-e8ff-5e21-88b6-571985b3234a	GO BP	extrinsic apoptotic signaling pathway via death domain receptors (GO:0008625)	TNFRSF10B	http://geneontology.org/	Gene Ontology
+d9be7813-fd57-55ae-927b-3fff36fb380c	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	extrinsic apoptotic signaling pathway via death domain receptors (GO:0008625)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+d9be7813-fd57-55ae-927b-3fff36fb380c	97291af2-f3ac-5c33-af04-4c8f459bc783	GO BP	extrinsic apoptotic signaling pathway via death domain receptors (GO:0008625)	TNFRSF10A	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	8168ef25-40ff-5a66-9e34-a455dcfbb72a	GO BP	positive regulation of cellular process (GO:0048522)	CLEC11A	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	64c71d36-8115-563d-85d3-4b562bd08e70	GO BP	positive regulation of cellular process (GO:0048522)	TRIM21	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	12b87efe-9cd6-5e13-b762-638aa0cd405d	GO BP	positive regulation of cellular process (GO:0048522)	MDK	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	00d136b7-944d-5db6-86c0-444827d4676c	GO BP	positive regulation of cellular process (GO:0048522)	FGF21	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	ea48238e-69f6-5692-a08d-f091f574bdd4	GO BP	positive regulation of cellular process (GO:0048522)	TIMP1	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	positive regulation of cellular process (GO:0048522)	SFRP1	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of cellular process (GO:0048522)	IL6	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	positive regulation of cellular process (GO:0048522)	CTSH	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	50e1324b-cdcd-5e76-ab9a-b1442992b1c4	GO BP	positive regulation of cellular process (GO:0048522)	NAMPT	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	positive regulation of cellular process (GO:0048522)	PRTN3	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	ee525b90-bfe6-545b-8320-6a86e2b72680	GO BP	positive regulation of cellular process (GO:0048522)	AREG	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	positive regulation of cellular process (GO:0048522)	CSF1	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	positive regulation of cellular process (GO:0048522)	LIF	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	positive regulation of cellular process (GO:0048522)	AZU1	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	positive regulation of cellular process (GO:0048522)	OSM	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of cellular process (GO:0048522)	TREM2	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	99be7247-c9e0-5709-bd43-d2bc1c1d86ff	GO BP	positive regulation of cellular process (GO:0048522)	NPM1	http://geneontology.org/	Gene Ontology
+30e0a117-9a2c-5c71-8d01-b9678b7bc99a	511a86f7-0acb-5420-a0a8-b743cd9e340b	GO BP	positive regulation of cellular process (GO:0048522)	CST7	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	positive regulation of interleukin-1 production (GO:0032732)	MNDA	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	positive regulation of interleukin-1 production (GO:0032732)	AZU1	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	positive regulation of interleukin-1 production (GO:0032732)	CASP8	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of interleukin-1 production (GO:0032732)	IL6	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of interleukin-1 production (GO:0032732)	CCL3	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	2da063ed-a355-5b5b-898a-7c034c9f9dd0	GO BP	positive regulation of interleukin-1 production (GO:0032732)	IL16	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	positive regulation of interleukin-1 production (GO:0032732)	CASP1	http://geneontology.org/	Gene Ontology
+71566f5f-603a-5036-977e-609b2f4edb8d	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of interleukin-1 production (GO:0032732)	LGALS9	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	e68d1bfa-e035-5178-9123-972053ca45d0	GO BP	cellular defense response (GO:0006968)	CD300C	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	GO BP	cellular defense response (GO:0006968)	CLEC5A	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	190b262a-4e4d-58b0-b2e5-72767f443415	GO BP	cellular defense response (GO:0006968)	NCF2	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	56716e3a-3a45-5476-a606-4f982326205c	GO BP	cellular defense response (GO:0006968)	LSP1	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	cellular defense response (GO:0006968)	CXCL9	http://geneontology.org/	Gene Ontology
+e0c0d9c5-e9cd-5a6d-beb8-0f46e4225992	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	cellular defense response (GO:0006968)	MNDA	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	LGALS9	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	AZU1	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	IL6	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	CASP1	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	CASP8	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	MNDA	http://geneontology.org/	Gene Ontology
+7c822942-0e99-5849-b248-6de08b8c3d93	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of interleukin-1 beta production (GO:0032731)	CCL3	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	inflammatory response (GO:0006954)	CXCL10	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	716d876a-f512-5748-bf63-b9399329256f	GO BP	inflammatory response (GO:0006954)	CHI3L1	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	inflammatory response (GO:0006954)	AZU1	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	inflammatory response (GO:0006954)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	inflammatory response (GO:0006954)	CCL7	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	inflammatory response (GO:0006954)	LGALS9	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	inflammatory response (GO:0006954)	IL6	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	inflammatory response (GO:0006954)	CCL3	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	GO BP	inflammatory response (GO:0006954)	PTX3	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	inflammatory response (GO:0006954)	CXCL8	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	GO BP	inflammatory response (GO:0006954)	OLR1	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	inflammatory response (GO:0006954)	CXCL9	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	inflammatory response (GO:0006954)	CCL20	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	GO BP	inflammatory response (GO:0006954)	IL1RN	http://geneontology.org/	Gene Ontology
+dc0d2a1a-a620-59c6-82e0-a3aa74724e37	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	inflammatory response (GO:0006954)	CXCL13	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	00d136b7-944d-5db6-86c0-444827d4676c	GO BP	positive regulation of gene expression (GO:0010628)	FGF21	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	GO BP	positive regulation of gene expression (GO:0010628)	POLR2F	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	99be7247-c9e0-5709-bd43-d2bc1c1d86ff	GO BP	positive regulation of gene expression (GO:0010628)	NPM1	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	32cb3260-c7c0-55d2-9ebe-aa9e567f2d55	GO BP	positive regulation of gene expression (GO:0010628)	EZR	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	0b9ec1a9-dcf4-59f9-b088-7578c5e61749	GO BP	positive regulation of gene expression (GO:0010628)	AGR2	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	GO BP	positive regulation of gene expression (GO:0010628)	MAPK9	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	GO BP	positive regulation of gene expression (GO:0010628)	VIM	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of gene expression (GO:0010628)	CCL3	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of gene expression (GO:0010628)	MMP8	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	positive regulation of gene expression (GO:0010628)	HSPA1A	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	positive regulation of gene expression (GO:0010628)	CTSH	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	positive regulation of gene expression (GO:0010628)	CSF1	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of gene expression (GO:0010628)	IL6	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of gene expression (GO:0010628)	TREM2	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	positive regulation of gene expression (GO:0010628)	AZU1	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of gene expression (GO:0010628)	LGALS9	http://geneontology.org/	Gene Ontology
+c5a22a2b-3271-5920-86e0-864d5a13e884	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	positive regulation of gene expression (GO:0010628)	CXCL8	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	e814c446-c8ba-520b-ac03-5d2d9abeb560	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	VWF	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	MMP8	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	BAX	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	CCL3	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	53988cdc-b62f-508b-a4d8-64eb0dcd7bfd	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	GDF15	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	LGALS9	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	LIF	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	ee525b90-bfe6-545b-8320-6a86e2b72680	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	AREG	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	CASP8	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	f1654664-25b2-52e1-875c-ed6a08621b7d	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	HGF	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	6dceb524-e8ff-5e21-88b6-571985b3234a	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	TNFRSF10B	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	64c71d36-8115-563d-85d3-4b562bd08e70	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	TRIM21	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	IL6	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	c4772e91-694b-5fb4-9b10-33ba56dcf0cc	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	LGALS1	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	OSM	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	3a10a3bd-19d2-51c5-9e96-9322ee092ab1	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	GPR37	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	716d876a-f512-5748-bf63-b9399329256f	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	CHI3L1	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	TREM2	http://geneontology.org/	Gene Ontology
+e25df43a-e4cb-5de5-a0fb-10b7b62a829d	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	positive regulation of intracellular signal transduction (GO:1902533)	CASP1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	neutrophil activation involved in immune response (GO:0002283)	HSPA1A	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	f4dc0041-5272-545e-b395-fed9ac71c23a	GO BP	neutrophil activation involved in immune response (GO:0002283)	RETN	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	neutrophil activation involved in immune response (GO:0002283)	MMP8	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	GO BP	neutrophil activation involved in immune response (GO:0002283)	PTX3	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	055e821e-b77f-5f65-a6fd-597b9df43286	GO BP	neutrophil activation involved in immune response (GO:0002283)	PADI2	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	neutrophil activation involved in immune response (GO:0002283)	PRTN3	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	neutrophil activation involved in immune response (GO:0002283)	CTSH	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	GO BP	neutrophil activation involved in immune response (GO:0002283)	CSTB	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	GO BP	neutrophil activation involved in immune response (GO:0002283)	SRP14	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	322a0c46-fc6d-51f9-be24-19044fafbec9	GO BP	neutrophil activation involved in immune response (GO:0002283)	RNASE3	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	GO BP	neutrophil activation involved in immune response (GO:0002283)	CLEC5A	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	3289929e-9df0-50df-ab2e-5510c1933db1	GO BP	neutrophil activation involved in immune response (GO:0002283)	MNDA	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	716d876a-f512-5748-bf63-b9399329256f	GO BP	neutrophil activation involved in immune response (GO:0002283)	CHI3L1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	6bc3be29-b26d-592e-a9f7-da92d52784b5	GO BP	neutrophil activation involved in immune response (GO:0002283)	S100P	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	neutrophil activation involved in immune response (GO:0002283)	AZU1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	fc163631-2d26-58ab-9141-136c329dbd76	GO BP	neutrophil activation involved in immune response (GO:0002283)	S100A11	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	neutrophil activation involved in immune response (GO:0002283)	LCN2	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	23f094fe-393e-543a-89c4-93c80ba3abf7	GO BP	neutrophil activation involved in immune response (GO:0002283)	CEACAM8	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	GO BP	neutrophil activation involved in immune response (GO:0002283)	CKAP4	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	GO BP	neutrophil activation involved in immune response (GO:0002283)	FCAR	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	GO BP	neutrophil activation involved in immune response (GO:0002283)	ACAA1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	54ce9fea-a0eb-5176-862a-542cf892e6f5	GO BP	neutrophil activation involved in immune response (GO:0002283)	CHIT1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	ea97ef30-2f23-5f73-a96a-d16bf7113eef	GO BP	neutrophil activation involved in immune response (GO:0002283)	PLAUR	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	GO BP	neutrophil activation involved in immune response (GO:0002283)	OLR1	http://geneontology.org/	Gene Ontology
+d164d94b-6001-5ee6-87ad-e78fc9da504c	745164eb-2295-5487-8f34-ae4e28a0beea	GO BP	neutrophil activation involved in immune response (GO:0002283)	FABP5	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	CTSH	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	CSF1	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	MAPK9	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	AZU1	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	IL6	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	00d136b7-944d-5db6-86c0-444827d4676c	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	FGF21	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	0b9ec1a9-dcf4-59f9-b088-7578c5e61749	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	AGR2	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	CCL3	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	TREM2	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	CXCL8	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	32cb3260-c7c0-55d2-9ebe-aa9e567f2d55	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	EZR	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	LGALS9	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	HSPA1A	http://geneontology.org/	Gene Ontology
+fcd551e9-c83b-5dc9-a4cd-6c22d704a564	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of macromolecule metabolic process (GO:0010604)	MMP8	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	regulation of cell population proliferation (GO:0042127)	SFRP1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	ee525b90-bfe6-545b-8320-6a86e2b72680	GO BP	regulation of cell population proliferation (GO:0042127)	AREG	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	4a37d002-d7d1-56d9-bae0-ae34fd53c300	GO BP	regulation of cell population proliferation (GO:0042127)	MZB1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	6e2660fd-77ff-5731-82cb-cd9d3d099c34	GO BP	regulation of cell population proliferation (GO:0042127)	JUN	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	regulation of cell population proliferation (GO:0042127)	IL6	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	a326b7c9-c0c1-5b0a-80eb-8e98aecb4457	GO BP	regulation of cell population proliferation (GO:0042127)	DDAH1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	00d136b7-944d-5db6-86c0-444827d4676c	GO BP	regulation of cell population proliferation (GO:0042127)	FGF21	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	regulation of cell population proliferation (GO:0042127)	PRTN3	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	regulation of cell population proliferation (GO:0042127)	CSF1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	e7d9f887-effd-5447-bf79-aca717fb75fe	GO BP	regulation of cell population proliferation (GO:0042127)	HSPA1A	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	regulation of cell population proliferation (GO:0042127)	CXCL8	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	ea48238e-69f6-5692-a08d-f091f574bdd4	GO BP	regulation of cell population proliferation (GO:0042127)	TIMP1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	2b54303e-71a8-5c2e-b515-3f32b1dea34a	GO BP	regulation of cell population proliferation (GO:0042127)	ZBTB17	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	regulation of cell population proliferation (GO:0042127)	CXCL10	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	3de205e1-0721-5e5a-8fbf-04709991de32	GO BP	regulation of cell population proliferation (GO:0042127)	CTSH	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	99be7247-c9e0-5709-bd43-d2bc1c1d86ff	GO BP	regulation of cell population proliferation (GO:0042127)	NPM1	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	fc163631-2d26-58ab-9141-136c329dbd76	GO BP	regulation of cell population proliferation (GO:0042127)	S100A11	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	regulation of cell population proliferation (GO:0042127)	OSM	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	50e1324b-cdcd-5e76-ab9a-b1442992b1c4	GO BP	regulation of cell population proliferation (GO:0042127)	NAMPT	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	regulation of cell population proliferation (GO:0042127)	LIF	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	8168ef25-40ff-5a66-9e34-a455dcfbb72a	GO BP	regulation of cell population proliferation (GO:0042127)	CLEC11A	http://geneontology.org/	Gene Ontology
+e64a5bd6-9acb-53ca-ace9-624356669f6c	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	regulation of cell population proliferation (GO:0042127)	CXCL9	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	cytokine-mediated signaling pathway (GO:0019221)	IL6	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CXCL13	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	cytokine-mediated signaling pathway (GO:0019221)	LIF	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CCL3	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	f1654664-25b2-52e1-875c-ed6a08621b7d	GO BP	cytokine-mediated signaling pathway (GO:0019221)	HGF	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CXCL9	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CASP1	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	cytokine-mediated signaling pathway (GO:0019221)	GBP2	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	GO BP	cytokine-mediated signaling pathway (GO:0019221)	VIM	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CCL7	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	GO BP	cytokine-mediated signaling pathway (GO:0019221)	TNFRSF6B	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	GO BP	cytokine-mediated signaling pathway (GO:0019221)	LCN2	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	d0ad6b41-ac06-5b4f-af53-5ad861301e44	GO BP	cytokine-mediated signaling pathway (GO:0019221)	SDC1	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	09cc5bee-2600-56f1-9276-65ff2a318c4c	GO BP	cytokine-mediated signaling pathway (GO:0019221)	TNFRSF1A	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	ea48238e-69f6-5692-a08d-f091f574bdd4	GO BP	cytokine-mediated signaling pathway (GO:0019221)	TIMP1	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	2da063ed-a355-5b5b-898a-7c034c9f9dd0	GO BP	cytokine-mediated signaling pathway (GO:0019221)	IL16	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	64c71d36-8115-563d-85d3-4b562bd08e70	GO BP	cytokine-mediated signaling pathway (GO:0019221)	TRIM21	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CXCL10	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	cytokine-mediated signaling pathway (GO:0019221)	OSM	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CXCL8	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	a52151c8-1aaf-5123-be06-80b29383d0a0	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CSF1	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	GO BP	cytokine-mediated signaling pathway (GO:0019221)	IL1RN	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	cytokine-mediated signaling pathway (GO:0019221)	CCL20	http://geneontology.org/	Gene Ontology
+f6414761-984c-5e27-a1fe-34bfd554ddf1	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	GO BP	cytokine-mediated signaling pathway (GO:0019221)	PRTN3	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	a87c9007-a9b0-5799-879d-64cd1b45129c	GO BP	response to interleukin-1 (GO:0070555)	SFRP1	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	response to interleukin-1 (GO:0070555)	GBP2	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	response to interleukin-1 (GO:0070555)	CCL20	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	response to interleukin-1 (GO:0070555)	CCL3	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	response to interleukin-1 (GO:0070555)	LGALS9	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	response to interleukin-1 (GO:0070555)	CXCL8	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	716d876a-f512-5748-bf63-b9399329256f	GO BP	response to interleukin-1 (GO:0070555)	CHI3L1	http://geneontology.org/	Gene Ontology
+acfe042f-244c-5480-a23d-1d54009637e3	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	response to interleukin-1 (GO:0070555)	CCL7	http://geneontology.org/	Gene Ontology
+50934c1d-33a5-535f-bcf9-d5dda6a82034	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of neuroinflammatory response (GO:0150078)	CCL3	http://geneontology.org/	Gene Ontology
+50934c1d-33a5-535f-bcf9-d5dda6a82034	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of neuroinflammatory response (GO:0150078)	IL6	http://geneontology.org/	Gene Ontology
+50934c1d-33a5-535f-bcf9-d5dda6a82034	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of neuroinflammatory response (GO:0150078)	MMP8	http://geneontology.org/	Gene Ontology
+50934c1d-33a5-535f-bcf9-d5dda6a82034	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of neuroinflammatory response (GO:0150078)	TREM2	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CXCL8	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CCL3	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CXCL10	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CXCL13	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CCL7	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CCL20	http://geneontology.org/	Gene Ontology
+ddda083b-fbd9-5223-8246-b6ac6e689b10	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	chemokine-mediated signaling pathway (GO:0070098)	CXCL9	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	3a10a3bd-19d2-51c5-9e96-9322ee092ab1	GO BP	positive regulation of MAPK cascade (GO:0043410)	GPR37	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	53988cdc-b62f-508b-a4d8-64eb0dcd7bfd	GO BP	positive regulation of MAPK cascade (GO:0043410)	GDF15	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	positive regulation of MAPK cascade (GO:0043410)	CCL7	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	positive regulation of MAPK cascade (GO:0043410)	CCL3	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	53304229-797b-53de-b74b-bb9a7e115b85	GO BP	positive regulation of MAPK cascade (GO:0043410)	LIF	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	GO BP	positive regulation of MAPK cascade (GO:0043410)	IL6	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	positive regulation of MAPK cascade (GO:0043410)	CCL20	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	f2652a53-0542-5f1b-a06b-360c0ae4863c	GO BP	positive regulation of MAPK cascade (GO:0043410)	OSM	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	GO BP	positive regulation of MAPK cascade (GO:0043410)	MMP8	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	GO BP	positive regulation of MAPK cascade (GO:0043410)	TREM2	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	00d136b7-944d-5db6-86c0-444827d4676c	GO BP	positive regulation of MAPK cascade (GO:0043410)	FGF21	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	716d876a-f512-5748-bf63-b9399329256f	GO BP	positive regulation of MAPK cascade (GO:0043410)	CHI3L1	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	positive regulation of MAPK cascade (GO:0043410)	LGALS9	http://geneontology.org/	Gene Ontology
+a889bea7-39b9-5ff9-bffc-7a296b8b84d0	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	GO BP	positive regulation of MAPK cascade (GO:0043410)	PLA2G2A	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	cellular response to chemokine (GO:1990869)	CXCL8	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	cellular response to chemokine (GO:1990869)	CXCL10	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	cellular response to chemokine (GO:1990869)	CCL20	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	cellular response to chemokine (GO:1990869)	CCL3	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	cellular response to chemokine (GO:1990869)	CXCL13	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	cellular response to chemokine (GO:1990869)	CXCL9	http://geneontology.org/	Gene Ontology
+d9201730-cf20-5a20-939d-fadf499ffc0b	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	cellular response to chemokine (GO:1990869)	CCL7	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	neutrophil chemotaxis (GO:0030593)	CCL20	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	neutrophil chemotaxis (GO:0030593)	CXCL8	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	neutrophil chemotaxis (GO:0030593)	CXCL10	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	neutrophil chemotaxis (GO:0030593)	CCL3	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	neutrophil chemotaxis (GO:0030593)	CXCL13	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	neutrophil chemotaxis (GO:0030593)	CCL7	http://geneontology.org/	Gene Ontology
+8424d63d-a6a7-5a39-91e8-b4b87ef5b413	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	neutrophil chemotaxis (GO:0030593)	CXCL9	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	64c71d36-8115-563d-85d3-4b562bd08e70	GO BP	response to interferon-gamma (GO:0034341)	TRIM21	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	response to interferon-gamma (GO:0034341)	CCL20	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	response to interferon-gamma (GO:0034341)	CCL3	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	response to interferon-gamma (GO:0034341)	CCL7	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	417ce43b-2b03-59fe-bf79-88b846587422	GO BP	response to interferon-gamma (GO:0034341)	GBP2	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	fa860458-bcd9-5b20-b634-80fb8e73cef7	GO BP	response to interferon-gamma (GO:0034341)	CASP1	http://geneontology.org/	Gene Ontology
+9868e93d-55e6-5bb9-98bd-7d101a560b08	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	GO BP	response to interferon-gamma (GO:0034341)	LGALS9	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	cd70f8d4-f9ff-5910-9a30-c51c633a472f	GO BP	granulocyte chemotaxis (GO:0071621)	CXCL13	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	GO BP	granulocyte chemotaxis (GO:0071621)	CXCL10	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	a69b0c72-daab-58b2-8503-7aec484b9eec	GO BP	granulocyte chemotaxis (GO:0071621)	CXCL9	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	184d1250-7660-52de-9ed4-70d57567d4db	GO BP	granulocyte chemotaxis (GO:0071621)	CCL3	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	f6e6de24-5d25-5c15-add3-35681997f1d1	GO BP	granulocyte chemotaxis (GO:0071621)	CXCL8	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	c3ef122b-f69f-5433-b729-309b8caa78af	GO BP	granulocyte chemotaxis (GO:0071621)	CCL20	http://geneontology.org/	Gene Ontology
+07ca5041-49af-5c80-9419-8e94a8440060	54c41fd6-7bae-55ca-8927-d1ebc4020158	GO BP	granulocyte chemotaxis (GO:0071621)	CCL7	http://geneontology.org/	Gene Ontology
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	Rheumatoid arthritis	CSF1	https://www.genome.jp/kegg/	KEGG
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Rheumatoid arthritis	JUN	https://www.genome.jp/kegg/	KEGG
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	Rheumatoid arthritis	CCL20	https://www.genome.jp/kegg/	KEGG
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Rheumatoid arthritis	IL6	https://www.genome.jp/kegg/	KEGG
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Rheumatoid arthritis	CCL3	https://www.genome.jp/kegg/	KEGG
+ba9047c7-410c-5dc2-a13f-7ccc8062cc81	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Rheumatoid arthritis	CXCL8	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Epstein-Barr virus infection	JUN	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Epstein-Barr virus infection	CXCL10	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Epstein-Barr virus infection	IL6	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	KEGG Pathway	Epstein-Barr virus infection	VIM	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Epstein-Barr virus infection	CASP8	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Epstein-Barr virus infection	MAPK9	https://www.genome.jp/kegg/	KEGG
+04040944-7853-501e-aa60-e19617d51a32	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Epstein-Barr virus infection	BAX	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	KEGG Pathway	Necroptosis	PARP1	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Necroptosis	MAPK9	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Necroptosis	CASP8	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Necroptosis	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Necroptosis	CASP1	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Necroptosis	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Necroptosis	BAX	https://www.genome.jp/kegg/	KEGG
+3acefbfc-f637-5d3d-9e73-1186565db5b7	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Necroptosis	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Non-alcoholic fatty liver disease	MAPK9	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Non-alcoholic fatty liver disease	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Non-alcoholic fatty liver disease	JUN	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Non-alcoholic fatty liver disease	IL6	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Non-alcoholic fatty liver disease	CASP8	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Non-alcoholic fatty liver disease	CXCL8	https://www.genome.jp/kegg/	KEGG
+74544353-8637-5da4-b8c6-c631d4f5153d	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Non-alcoholic fatty liver disease	BAX	https://www.genome.jp/kegg/	KEGG
+26dd8639-17d8-58ba-ab26-001612bb332c	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Malaria	IL6	https://www.genome.jp/kegg/	KEGG
+26dd8639-17d8-58ba-ab26-001612bb332c	f1654664-25b2-52e1-875c-ed6a08621b7d	KEGG Pathway	Malaria	HGF	https://www.genome.jp/kegg/	KEGG
+26dd8639-17d8-58ba-ab26-001612bb332c	d0ad6b41-ac06-5b4f-af53-5ad861301e44	KEGG Pathway	Malaria	SDC1	https://www.genome.jp/kegg/	KEGG
+26dd8639-17d8-58ba-ab26-001612bb332c	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Malaria	CXCL8	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	Cytokine-cytokine receptor interaction	CSF1	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Cytokine-cytokine receptor interaction	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Cytokine-cytokine receptor interaction	CXCL10	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	2da063ed-a355-5b5b-898a-7c034c9f9dd0	KEGG Pathway	Cytokine-cytokine receptor interaction	IL16	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	54c41fd6-7bae-55ca-8927-d1ebc4020158	KEGG Pathway	Cytokine-cytokine receptor interaction	CCL7	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Cytokine-cytokine receptor interaction	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Cytokine-cytokine receptor interaction	CCL3	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	f2652a53-0542-5f1b-a06b-360c0ae4863c	KEGG Pathway	Cytokine-cytokine receptor interaction	OSM	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	cd70f8d4-f9ff-5910-9a30-c51c633a472f	KEGG Pathway	Cytokine-cytokine receptor interaction	CXCL13	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	KEGG Pathway	Cytokine-cytokine receptor interaction	IL1RN	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	Cytokine-cytokine receptor interaction	CCL20	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	a69b0c72-daab-58b2-8503-7aec484b9eec	KEGG Pathway	Cytokine-cytokine receptor interaction	CXCL9	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	53304229-797b-53de-b74b-bb9a7e115b85	KEGG Pathway	Cytokine-cytokine receptor interaction	LIF	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Cytokine-cytokine receptor interaction	IL6	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Cytokine-cytokine receptor interaction	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	KEGG Pathway	Cytokine-cytokine receptor interaction	TNFRSF6B	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Cytokine-cytokine receptor interaction	CXCL8	https://www.genome.jp/kegg/	KEGG
+236e2f12-9635-593d-8203-7efe09b815c8	53988cdc-b62f-508b-a4d8-64eb0dcd7bfd	KEGG Pathway	Cytokine-cytokine receptor interaction	GDF15	https://www.genome.jp/kegg/	KEGG
+125a3747-86fd-582c-a1af-a8021553604a	ffb16013-4705-544d-be5d-039d292de82f	KEGG Pathway	Complement and coagulation cascades	C4BPB	https://www.genome.jp/kegg/	KEGG
+125a3747-86fd-582c-a1af-a8021553604a	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	KEGG Pathway	Complement and coagulation cascades	PLAT	https://www.genome.jp/kegg/	KEGG
+125a3747-86fd-582c-a1af-a8021553604a	e814c446-c8ba-520b-ac03-5d2d9abeb560	KEGG Pathway	Complement and coagulation cascades	VWF	https://www.genome.jp/kegg/	KEGG
+125a3747-86fd-582c-a1af-a8021553604a	c56dc369-9f72-539c-b7fe-505e01796d54	KEGG Pathway	Complement and coagulation cascades	VSIG4	https://www.genome.jp/kegg/	KEGG
+125a3747-86fd-582c-a1af-a8021553604a	ea97ef30-2f23-5f73-a96a-d16bf7113eef	KEGG Pathway	Complement and coagulation cascades	PLAUR	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CSF1	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	IL6	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	cd70f8d4-f9ff-5910-9a30-c51c633a472f	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CXCL13	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CXCL10	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CCL20	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	54c41fd6-7bae-55ca-8927-d1ebc4020158	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CCL7	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CXCL8	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	a69b0c72-daab-58b2-8503-7aec484b9eec	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CXCL9	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	CCL3	https://www.genome.jp/kegg/	KEGG
+a3e78c9b-65dc-576a-a052-2c437032ab60	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Viral protein interaction with cytokine and cytokine receptor	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	TNF signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	TNF signaling pathway	IL6	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	TNF signaling pathway	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	TNF signaling pathway	CCL20	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	TNF signaling pathway	CXCL10	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	TNF signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	TNF signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	TNF signaling pathway	CSF1	https://www.genome.jp/kegg/	KEGG
+6123424b-362b-5cab-8df9-53b1bf489004	53304229-797b-53de-b74b-bb9a7e115b85	KEGG Pathway	TNF signaling pathway	LIF	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Toll-like receptor signaling pathway	CCL3	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Toll-like receptor signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	a69b0c72-daab-58b2-8503-7aec484b9eec	KEGG Pathway	Toll-like receptor signaling pathway	CXCL9	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Toll-like receptor signaling pathway	IL6	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Toll-like receptor signaling pathway	CXCL10	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Toll-like receptor signaling pathway	CXCL8	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Toll-like receptor signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+2ecf2eea-ea12-53ab-9e1f-57e5560e0dd6	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Toll-like receptor signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Apoptosis	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Apoptosis	JUN	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Apoptosis	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Apoptosis	BAX	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Apoptosis	MAPK9	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Apoptosis	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Apoptosis	CASP8	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	KEGG Pathway	Apoptosis	PARP1	https://www.genome.jp/kegg/	KEGG
+cb7c41a3-35d9-54d4-9e97-90b354e09c21	3de205e1-0721-5e5a-8fbf-04709991de32	KEGG Pathway	Apoptosis	CTSH	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Influenza A	CASP1	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Influenza A	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Influenza A	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Influenza A	CASP8	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Influenza A	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Influenza A	CXCL10	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Influenza A	CXCL8	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Influenza A	IL6	https://www.genome.jp/kegg/	KEGG
+f67ac062-0c0d-5140-a247-7cd999a5e833	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Influenza A	BAX	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	e7d9f887-effd-5447-bf79-aca717fb75fe	KEGG Pathway	Measles	HSPA1A	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Measles	BAX	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Measles	IL6	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Measles	JUN	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Measles	CASP8	https://www.genome.jp/kegg/	KEGG
+60a4f6ea-7a50-5821-997f-c9ed816a2c04	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Measles	MAPK9	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	JUN	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	IL6	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	MAPK9	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	CASP8	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	BAX	https://www.genome.jp/kegg/	KEGG
+b8e56f70-1dd0-5466-abcd-a225fa4ae508	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Kaposi sarcoma-associated herpesvirus infection	CXCL8	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	IL-17 signaling pathway	CXCL8	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	KEGG Pathway	IL-17 signaling pathway	LCN2	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	IL-17 signaling pathway	IL6	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	IL-17 signaling pathway	CCL20	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	IL-17 signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	IL-17 signaling pathway	CXCL10	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	IL-17 signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	54c41fd6-7bae-55ca-8927-d1ebc4020158	KEGG Pathway	IL-17 signaling pathway	CCL7	https://www.genome.jp/kegg/	KEGG
+30232c6f-66b1-5571-8a5d-453fd6ab0504	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	IL-17 signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	C-type lectin receptor signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	C-type lectin receptor signaling pathway	IL6	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	C-type lectin receptor signaling pathway	CASP1	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	C-type lectin receptor signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	56716e3a-3a45-5476-a606-4f982326205c	KEGG Pathway	C-type lectin receptor signaling pathway	LSP1	https://www.genome.jp/kegg/	KEGG
+44039325-0035-50bb-ace6-beda242d9cfd	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	C-type lectin receptor signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	417ce43b-2b03-59fe-bf79-88b846587422	KEGG Pathway	NOD-like receptor signaling pathway	GBP2	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	NOD-like receptor signaling pathway	CXCL8	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	NOD-like receptor signaling pathway	CASP1	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	NOD-like receptor signaling pathway	IL6	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	NOD-like receptor signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	NOD-like receptor signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	NOD-like receptor signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+8fc6e521-9ee6-5db2-9756-ecf305df2791	50e1324b-cdcd-5e76-ab9a-b1442992b1c4	KEGG Pathway	NOD-like receptor signaling pathway	NAMPT	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Yersinia infection	IL6	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Yersinia infection	CASP1	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	026146ad-ddf0-518c-ac23-38f34d950830	KEGG Pathway	Yersinia infection	PXN	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Yersinia infection	MAPK9	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Yersinia infection	CXCL8	https://www.genome.jp/kegg/	KEGG
+1d3f7242-9dad-5bfc-ad1b-13700dfc25b6	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Yersinia infection	JUN	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Osteoclast differentiation	MAPK9	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Osteoclast differentiation	JUN	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	KEGG Pathway	Osteoclast differentiation	TREM2	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Osteoclast differentiation	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	Osteoclast differentiation	CSF1	https://www.genome.jp/kegg/	KEGG
+123d2c28-cda5-5eb1-ad97-d030cfd1140d	190b262a-4e4d-58b0-b2e5-72767f443415	KEGG Pathway	Osteoclast differentiation	NCF2	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Fluid shear stress and atherosclerosis	MAPK9	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Fluid shear stress and atherosclerosis	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	d0ad6b41-ac06-5b4f-af53-5ad861301e44	KEGG Pathway	Fluid shear stress and atherosclerosis	SDC1	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Fluid shear stress and atherosclerosis	JUN	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	KEGG Pathway	Fluid shear stress and atherosclerosis	PLAT	https://www.genome.jp/kegg/	KEGG
+d92ac6ad-18c0-593b-b18a-f03c0216e818	190b262a-4e4d-58b0-b2e5-72767f443415	KEGG Pathway	Fluid shear stress and atherosclerosis	NCF2	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Pathogenic Escherichia coli infection	CASP8	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Pathogenic Escherichia coli infection	JUN	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Pathogenic Escherichia coli infection	MAPK9	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Pathogenic Escherichia coli infection	IL6	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	c203dac4-81d5-5a9f-9e73-9599bce1582a	KEGG Pathway	Pathogenic Escherichia coli infection	BRK1	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Pathogenic Escherichia coli infection	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Pathogenic Escherichia coli infection	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Pathogenic Escherichia coli infection	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Pathogenic Escherichia coli infection	BAX	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	32cb3260-c7c0-55d2-9ebe-aa9e567f2d55	KEGG Pathway	Pathogenic Escherichia coli infection	EZR	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Pathogenic Escherichia coli infection	CASP1	https://www.genome.jp/kegg/	KEGG
+b06000b8-d657-5dfe-ada5-5f601c6b30ac	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Pathogenic Escherichia coli infection	CXCL8	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	ee525b90-bfe6-545b-8320-6a86e2b72680	KEGG Pathway	MAPK signaling pathway	AREG	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	f1654664-25b2-52e1-875c-ed6a08621b7d	KEGG Pathway	MAPK signaling pathway	HGF	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	MAPK signaling pathway	JUN	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	a52151c8-1aaf-5123-be06-80b29383d0a0	KEGG Pathway	MAPK signaling pathway	CSF1	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	MAPK signaling pathway	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	357d2be5-ff51-5e66-8046-5cb49028b494	KEGG Pathway	MAPK signaling pathway	EFNA1	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	MAPK signaling pathway	MAPK9	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	00d136b7-944d-5db6-86c0-444827d4676c	KEGG Pathway	MAPK signaling pathway	FGF21	https://www.genome.jp/kegg/	KEGG
+10ec327b-1b49-550c-99f9-9773707ac0cd	e7d9f887-effd-5447-bf79-aca717fb75fe	KEGG Pathway	MAPK signaling pathway	HSPA1A	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	54c41fd6-7bae-55ca-8927-d1ebc4020158	KEGG Pathway	Chemokine signaling pathway	CCL7	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	c3ef122b-f69f-5433-b729-309b8caa78af	KEGG Pathway	Chemokine signaling pathway	CCL20	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	cd70f8d4-f9ff-5910-9a30-c51c633a472f	KEGG Pathway	Chemokine signaling pathway	CXCL13	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	026146ad-ddf0-518c-ac23-38f34d950830	KEGG Pathway	Chemokine signaling pathway	PXN	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	a69b0c72-daab-58b2-8503-7aec484b9eec	KEGG Pathway	Chemokine signaling pathway	CXCL9	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Chemokine signaling pathway	CXCL10	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Chemokine signaling pathway	CCL3	https://www.genome.jp/kegg/	KEGG
+b3678831-9f55-5130-9397-220d2944d2ca	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Chemokine signaling pathway	CXCL8	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	45bdb471-37de-56a5-8b0d-e9d52ec8b3ef	KEGG Pathway	Salmonella infection	DCTN2	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Salmonella infection	MAPK9	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Salmonella infection	BAX	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	c203dac4-81d5-5a9f-9e73-9599bce1582a	KEGG Pathway	Salmonella infection	BRK1	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Salmonella infection	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Salmonella infection	CXCL8	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Salmonella infection	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Salmonella infection	CASP1	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Salmonella infection	JUN	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Salmonella infection	CASP8	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Salmonella infection	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+41eda6a6-6b5f-5c08-9bb0-7db8ad5ddd4a	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Salmonella infection	IL6	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Chagas disease	CCL3	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Chagas disease	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Chagas disease	JUN	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Chagas disease	IL6	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Chagas disease	CXCL8	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Chagas disease	MAPK9	https://www.genome.jp/kegg/	KEGG
+50706c3a-84cf-563f-a025-8ec9edfd496b	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Chagas disease	CASP8	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Pertussis	CXCL8	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Pertussis	MAPK9	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	169bb9d5-2365-5aca-aac5-58dfde40bd7c	KEGG Pathway	Pertussis	SFTPA2	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Pertussis	JUN	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Pertussis	IL6	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Pertussis	CASP1	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	b07b3d74-4187-5488-a4e1-6d6d51656783	KEGG Pathway	Pertussis	SFTPA1	https://www.genome.jp/kegg/	KEGG
+2d4f11cb-3dd9-5703-bd4f-846be48a8e05	ffb16013-4705-544d-be5d-039d292de82f	KEGG Pathway	Pertussis	C4BPB	https://www.genome.jp/kegg/	KEGG
+3a285eb5-107b-5583-93bb-875d78f7a93e	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Legionellosis	IL6	https://www.genome.jp/kegg/	KEGG
+3a285eb5-107b-5583-93bb-875d78f7a93e	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Legionellosis	CXCL8	https://www.genome.jp/kegg/	KEGG
+3a285eb5-107b-5583-93bb-875d78f7a93e	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Legionellosis	CASP8	https://www.genome.jp/kegg/	KEGG
+3a285eb5-107b-5583-93bb-875d78f7a93e	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Legionellosis	CASP1	https://www.genome.jp/kegg/	KEGG
+3a285eb5-107b-5583-93bb-875d78f7a93e	e7d9f887-effd-5447-bf79-aca717fb75fe	KEGG Pathway	Legionellosis	HSPA1A	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	e814c446-c8ba-520b-ac03-5d2d9abeb560	KEGG Pathway	Coronavirus disease	VWF	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Coronavirus disease	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Coronavirus disease	MAPK9	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	KEGG Pathway	Coronavirus disease	CXCL10	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Coronavirus disease	IL6	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Coronavirus disease	CASP1	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Coronavirus disease	CXCL8	https://www.genome.jp/kegg/	KEGG
+af837e67-8100-59e6-b026-5930f95e017d	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Coronavirus disease	JUN	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	6e2660fd-77ff-5731-82cb-cd9d3d099c34	KEGG Pathway	Lipid and atherosclerosis	JUN	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	fa860458-bcd9-5b20-b634-80fb8e73cef7	KEGG Pathway	Lipid and atherosclerosis	CASP1	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	Lipid and atherosclerosis	BAX	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	KEGG Pathway	Lipid and atherosclerosis	OLR1	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	f6e6de24-5d25-5c15-add3-35681997f1d1	KEGG Pathway	Lipid and atherosclerosis	CXCL8	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	09cc5bee-2600-56f1-9276-65ff2a318c4c	KEGG Pathway	Lipid and atherosclerosis	TNFRSF1A	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	KEGG Pathway	Lipid and atherosclerosis	IL6	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	Lipid and atherosclerosis	CASP8	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	184d1250-7660-52de-9ed4-70d57567d4db	KEGG Pathway	Lipid and atherosclerosis	CCL3	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	KEGG Pathway	Lipid and atherosclerosis	MAPK9	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	e7d9f887-effd-5447-bf79-aca717fb75fe	KEGG Pathway	Lipid and atherosclerosis	HSPA1A	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	Lipid and atherosclerosis	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	190b262a-4e4d-58b0-b2e5-72767f443415	KEGG Pathway	Lipid and atherosclerosis	NCF2	https://www.genome.jp/kegg/	KEGG
+4691c126-60aa-56fd-a73d-4efdd1b2c19a	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	Lipid and atherosclerosis	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+875b24f5-b27d-56c1-8e94-78abffd9f550	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	KEGG Pathway	p53 signaling pathway	CASP8	https://www.genome.jp/kegg/	KEGG
+875b24f5-b27d-56c1-8e94-78abffd9f550	97291af2-f3ac-5c33-af04-4c8f459bc783	KEGG Pathway	p53 signaling pathway	TNFRSF10A	https://www.genome.jp/kegg/	KEGG
+875b24f5-b27d-56c1-8e94-78abffd9f550	6dceb524-e8ff-5e21-88b6-571985b3234a	KEGG Pathway	p53 signaling pathway	TNFRSF10B	https://www.genome.jp/kegg/	KEGG
+875b24f5-b27d-56c1-8e94-78abffd9f550	629817b3-28ec-5318-86ba-694e8ec8409e	KEGG Pathway	p53 signaling pathway	RRM2	https://www.genome.jp/kegg/	KEGG
+875b24f5-b27d-56c1-8e94-78abffd9f550	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	KEGG Pathway	p53 signaling pathway	BAX	https://www.genome.jp/kegg/	KEGG
+222e7f5e-6bb1-5aa9-bb4d-1010a7852798	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Caspase Activation Via Death Receptors In Presence Of Ligand R-HSA-140534	CASP8	https://reactome.org	Reactome
+222e7f5e-6bb1-5aa9-bb4d-1010a7852798	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Caspase Activation Via Death Receptors In Presence Of Ligand R-HSA-140534	TNFRSF10B	https://reactome.org	Reactome
+222e7f5e-6bb1-5aa9-bb4d-1010a7852798	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Caspase Activation Via Death Receptors In Presence Of Ligand R-HSA-140534	TNFRSF10A	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	a69b0c72-daab-58b2-8503-7aec484b9eec	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CXCL9	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CXCL10	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	54c41fd6-7bae-55ca-8927-d1ebc4020158	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CCL7	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	cd70f8d4-f9ff-5910-9a30-c51c633a472f	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CXCL13	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CXCL8	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CCL20	https://reactome.org	Reactome
+af118780-3012-538d-afcc-5ca6b8424b08	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Chemokine Receptors Bind Chemokines R-HSA-380108	CCL3	https://reactome.org	Reactome
+ad88041b-e818-51b0-8dd5-c2da6274a783	e7d9f887-effd-5447-bf79-aca717fb75fe	Reactome	HSP90 Chaperone Cycle For Steroid Hormone Receptors (SHR) In Presence Of Ligand R-HSA-3371497	HSPA1A	https://reactome.org	Reactome
+ad88041b-e818-51b0-8dd5-c2da6274a783	45bdb471-37de-56a5-8b0d-e9d52ec8b3ef	Reactome	HSP90 Chaperone Cycle For Steroid Hormone Receptors (SHR) In Presence Of Ligand R-HSA-3371497	DCTN2	https://reactome.org	Reactome
+ad88041b-e818-51b0-8dd5-c2da6274a783	ee525b90-bfe6-545b-8320-6a86e2b72680	Reactome	HSP90 Chaperone Cycle For Steroid Hormone Receptors (SHR) In Presence Of Ligand R-HSA-3371497	AREG	https://reactome.org	Reactome
+ad88041b-e818-51b0-8dd5-c2da6274a783	e2fb042f-ecef-5d40-ba5f-a91606ce0546	Reactome	HSP90 Chaperone Cycle For Steroid Hormone Receptors (SHR) In Presence Of Ligand R-HSA-3371497	FKBP5	https://reactome.org	Reactome
+70c3b1e0-5452-5a41-be88-add8a3020287	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Caspase Activation Via Extrinsic Apoptotic Signaling Pathway R-HSA-5357769	TNFRSF10A	https://reactome.org	Reactome
+70c3b1e0-5452-5a41-be88-add8a3020287	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Caspase Activation Via Extrinsic Apoptotic Signaling Pathway R-HSA-5357769	CASP8	https://reactome.org	Reactome
+70c3b1e0-5452-5a41-be88-add8a3020287	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Caspase Activation Via Extrinsic Apoptotic Signaling Pathway R-HSA-5357769	TNFRSF10B	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Immune System R-HSA-168256	RNASE3	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	Reactome	Immune System R-HSA-168256	CSTB	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Immune System R-HSA-168256	TIMP1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Immune System R-HSA-168256	CCL3	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	Reactome	Immune System R-HSA-168256	PLA2G2A	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	Reactome	Immune System R-HSA-168256	IL1RN	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	716d876a-f512-5748-bf63-b9399329256f	Reactome	Immune System R-HSA-168256	CHI3L1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Immune System R-HSA-168256	CASP1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	Reactome	Immune System R-HSA-168256	MAPK9	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	Reactome	Immune System R-HSA-168256	CLEC5A	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	Reactome	Immune System R-HSA-168256	TNFRSF6B	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	09cc5bee-2600-56f1-9276-65ff2a318c4c	Reactome	Immune System R-HSA-168256	TNFRSF1A	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Immune System R-HSA-168256	PRTN3	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	e68d1bfa-e035-5178-9123-972053ca45d0	Reactome	Immune System R-HSA-168256	CD300C	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	Reactome	Immune System R-HSA-168256	VIM	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	Reactome	Immune System R-HSA-168256	ACAA1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	Reactome	Immune System R-HSA-168256	PTX3	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f9db7351-8528-5073-b724-d777da39b78d	Reactome	Immune System R-HSA-168256	CD300E	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	e7d9f887-effd-5447-bf79-aca717fb75fe	Reactome	Immune System R-HSA-168256	HSPA1A	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	53304229-797b-53de-b74b-bb9a7e115b85	Reactome	Immune System R-HSA-168256	LIF	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Immune System R-HSA-168256	LCN2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	ea97ef30-2f23-5f73-a96a-d16bf7113eef	Reactome	Immune System R-HSA-168256	PLAUR	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Immune System R-HSA-168256	CSF1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	6bc3be29-b26d-592e-a9f7-da92d52784b5	Reactome	Immune System R-HSA-168256	S100P	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	fc163631-2d26-58ab-9141-136c329dbd76	Reactome	Immune System R-HSA-168256	S100A11	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	055e821e-b77f-5f65-a6fd-597b9df43286	Reactome	Immune System R-HSA-168256	PADI2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	2da063ed-a355-5b5b-898a-7c034c9f9dd0	Reactome	Immune System R-HSA-168256	IL16	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	Reactome	Immune System R-HSA-168256	OLR1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	Reactome	Immune System R-HSA-168256	POLR2F	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	ffb16013-4705-544d-be5d-039d292de82f	Reactome	Immune System R-HSA-168256	C4BPB	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	64c71d36-8115-563d-85d3-4b562bd08e70	Reactome	Immune System R-HSA-168256	TRIM21	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	e4612640-65cf-5508-9877-0e62a9b5985a	Reactome	Immune System R-HSA-168256	BTN3A2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	45bdb471-37de-56a5-8b0d-e9d52ec8b3ef	Reactome	Immune System R-HSA-168256	DCTN2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	9ff5fc40-6887-52ea-9a48-8dca370f1cea	Reactome	Immune System R-HSA-168256	SIGLEC10	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Immune System R-HSA-168256	CASP8	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	ab5f808c-2f6b-5c31-9452-cd2bbd9953bc	Reactome	Immune System R-HSA-168256	ATOX1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Immune System R-HSA-168256	CCL20	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	Reactome	Immune System R-HSA-168256	MMP8	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Immune System R-HSA-168256	IL6	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	db816a12-c926-5222-b3ce-8a6b71fb6078	Reactome	Immune System R-HSA-168256	HAVCR2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	Reactome	Immune System R-HSA-168256	LGALS9	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	c203dac4-81d5-5a9f-9e73-9599bce1582a	Reactome	Immune System R-HSA-168256	BRK1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f4dc0041-5272-545e-b395-fed9ac71c23a	Reactome	Immune System R-HSA-168256	RETN	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Immune System R-HSA-168256	CXCL10	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	190b262a-4e4d-58b0-b2e5-72767f443415	Reactome	Immune System R-HSA-168256	NCF2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	54ce9fea-a0eb-5176-862a-542cf892e6f5	Reactome	Immune System R-HSA-168256	CHIT1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	3de205e1-0721-5e5a-8fbf-04709991de32	Reactome	Immune System R-HSA-168256	CTSH	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Immune System R-HSA-168256	JUN	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Immune System R-HSA-168256	CXCL8	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	d0ad6b41-ac06-5b4f-af53-5ad861301e44	Reactome	Immune System R-HSA-168256	SDC1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	Reactome	Immune System R-HSA-168256	AZU1	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Immune System R-HSA-168256	SFTPA2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	3289929e-9df0-50df-ab2e-5510c1933db1	Reactome	Immune System R-HSA-168256	MNDA	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	Reactome	Immune System R-HSA-168256	TREM2	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Immune System R-HSA-168256	CKAP4	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	Reactome	Immune System R-HSA-168256	SRP14	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	23f094fe-393e-543a-89c4-93c80ba3abf7	Reactome	Immune System R-HSA-168256	CEACAM8	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	Reactome	Immune System R-HSA-168256	FCAR	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	64f56745-b674-5668-9ce3-b38bfea4d17c	Reactome	Immune System R-HSA-168256	CLTA	https://reactome.org	Reactome
+a8dd5930-0dd3-5793-89ed-5d17009812de	417ce43b-2b03-59fe-bf79-88b846587422	Reactome	Immune System R-HSA-168256	GBP2	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	e814c446-c8ba-520b-ac03-5d2d9abeb560	Reactome	Hemostasis R-HSA-109582	VWF	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	ea97ef30-2f23-5f73-a96a-d16bf7113eef	Reactome	Hemostasis R-HSA-109582	PLAUR	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	23f094fe-393e-543a-89c4-93c80ba3abf7	Reactome	Hemostasis R-HSA-109582	CEACAM8	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Hemostasis R-HSA-109582	SFTPA2	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	Reactome	Hemostasis R-HSA-109582	OLR1	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	Reactome	Hemostasis R-HSA-109582	PLAT	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Hemostasis R-HSA-109582	TNFRSF10B	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Hemostasis R-HSA-109582	PRTN3	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	d0ad6b41-ac06-5b4f-af53-5ad861301e44	Reactome	Hemostasis R-HSA-109582	SDC1	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Hemostasis R-HSA-109582	TIMP1	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Hemostasis R-HSA-109582	TNFRSF10A	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	3d6b2185-904b-5645-832e-b028ff4d103a	Reactome	Hemostasis R-HSA-109582	SERPINB8	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Hemostasis R-HSA-109582	RNASE3	https://reactome.org	Reactome
+d49de1d2-4258-55a9-adae-642fdc085de4	6352dfe8-29e7-50d4-a8c2-e8bbc1e0221f	Reactome	Hemostasis R-HSA-109582	APBB1IP	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	db816a12-c926-5222-b3ce-8a6b71fb6078	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	HAVCR2	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	MAPK9	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	JUN	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	2da063ed-a355-5b5b-898a-7c034c9f9dd0	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	IL16	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CXCL10	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	IL1RN	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	09cc5bee-2600-56f1-9276-65ff2a318c4c	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	TNFRSF1A	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CASP8	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	IL6	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	64c71d36-8115-563d-85d3-4b562bd08e70	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	TRIM21	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	53304229-797b-53de-b74b-bb9a7e115b85	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	LIF	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	VIM	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	LGALS9	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	TIMP1	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CCL3	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CSF1	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	LCN2	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	d0ad6b41-ac06-5b4f-af53-5ad861301e44	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	SDC1	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CXCL8	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	PRTN3	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	417ce43b-2b03-59fe-bf79-88b846587422	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	GBP2	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CCL20	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	CASP1	https://reactome.org	Reactome
+f5af6615-217a-5ebe-a169-736c1bbbe585	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	Reactome	Cytokine Signaling In Immune System R-HSA-1280215	TNFRSF6B	https://reactome.org	Reactome
+6ea6baff-9074-548a-a8e0-83f67cecef6c	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	RIPK1-mediated Regulated Necrosis R-HSA-5213460	TNFRSF10A	https://reactome.org	Reactome
+6ea6baff-9074-548a-a8e0-83f67cecef6c	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	RIPK1-mediated Regulated Necrosis R-HSA-5213460	TNFRSF10B	https://reactome.org	Reactome
+6ea6baff-9074-548a-a8e0-83f67cecef6c	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	RIPK1-mediated Regulated Necrosis R-HSA-5213460	CASP8	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Signal Transduction R-HSA-162582	SFTPA2	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	7c776bdb-f968-5989-861a-1ecc445e2697	Reactome	Signal Transduction R-HSA-162582	LBR	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	6352dfe8-29e7-50d4-a8c2-e8bbc1e0221f	Reactome	Signal Transduction R-HSA-162582	APBB1IP	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Signal Transduction R-HSA-162582	IL6	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	5b17b107-865c-5d20-950e-01a5d796262a	Reactome	Signal Transduction R-HSA-162582	FSTL3	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	83dcefac-c286-53f6-bfe0-f574b44e326f	Reactome	Signal Transduction R-HSA-162582	FMNL1	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Signal Transduction R-HSA-162582	JUN	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	Reactome	Signal Transduction R-HSA-162582	PLAT	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	09cc5bee-2600-56f1-9276-65ff2a318c4c	Reactome	Signal Transduction R-HSA-162582	TNFRSF1A	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	e2fb042f-ecef-5d40-ba5f-a91606ce0546	Reactome	Signal Transduction R-HSA-162582	FKBP5	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	ee525b90-bfe6-545b-8320-6a86e2b72680	Reactome	Signal Transduction R-HSA-162582	AREG	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Signal Transduction R-HSA-162582	TNFRSF10B	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	Reactome	Signal Transduction R-HSA-162582	BAX	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Signal Transduction R-HSA-162582	CXCL10	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	a69b0c72-daab-58b2-8503-7aec484b9eec	Reactome	Signal Transduction R-HSA-162582	CXCL9	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Signal Transduction R-HSA-162582	CASP8	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Signal Transduction R-HSA-162582	RNASE3	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	3a10a3bd-19d2-51c5-9e96-9322ee092ab1	Reactome	Signal Transduction R-HSA-162582	GPR37	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	Reactome	Signal Transduction R-HSA-162582	PARP1	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	64f56745-b674-5668-9ce3-b38bfea4d17c	Reactome	Signal Transduction R-HSA-162582	CLTA	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	cc1412d0-b8c5-5935-92ff-614a3fdd33c3	Reactome	Signal Transduction R-HSA-162582	CALCA	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	Reactome	Signal Transduction R-HSA-162582	VIM	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	Reactome	Signal Transduction R-HSA-162582	POLR2F	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	c203dac4-81d5-5a9f-9e73-9599bce1582a	Reactome	Signal Transduction R-HSA-162582	BRK1	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	54c41fd6-7bae-55ca-8927-d1ebc4020158	Reactome	Signal Transduction R-HSA-162582	CCL7	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	a87c9007-a9b0-5799-879d-64cd1b45129c	Reactome	Signal Transduction R-HSA-162582	SFRP1	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	e814c446-c8ba-520b-ac03-5d2d9abeb560	Reactome	Signal Transduction R-HSA-162582	VWF	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Signal Transduction R-HSA-162582	TNFRSF10A	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	190b262a-4e4d-58b0-b2e5-72767f443415	Reactome	Signal Transduction R-HSA-162582	NCF2	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	cd70f8d4-f9ff-5910-9a30-c51c633a472f	Reactome	Signal Transduction R-HSA-162582	CXCL13	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Signal Transduction R-HSA-162582	CXCL8	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	29cf1c4e-cffd-5433-9c96-2e5023b4370f	Reactome	Signal Transduction R-HSA-162582	MAD1L1	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Signal Transduction R-HSA-162582	CCL20	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Signal Transduction R-HSA-162582	CCL3	https://reactome.org	Reactome
+a1537358-8c97-5fea-86bf-2c41c7a3b1aa	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Signal Transduction R-HSA-162582	CKAP4	https://reactome.org	Reactome
+507c38ff-1737-54ff-a695-5b5e33d3f529	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Surfactant Metabolism R-HSA-5683826	SFTPA2	https://reactome.org	Reactome
+507c38ff-1737-54ff-a695-5b5e33d3f529	b07b3d74-4187-5488-a4e1-6d6d51656783	Reactome	Surfactant Metabolism R-HSA-5683826	SFTPA1	https://reactome.org	Reactome
+507c38ff-1737-54ff-a695-5b5e33d3f529	3de205e1-0721-5e5a-8fbf-04709991de32	Reactome	Surfactant Metabolism R-HSA-5683826	CTSH	https://reactome.org	Reactome
+507c38ff-1737-54ff-a695-5b5e33d3f529	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Surfactant Metabolism R-HSA-5683826	CKAP4	https://reactome.org	Reactome
+22bda46b-d4a4-5bf8-9ad6-4a210e207dfe	2da063ed-a355-5b5b-898a-7c034c9f9dd0	Reactome	Other Interleukin Signaling R-HSA-449836	IL16	https://reactome.org	Reactome
+22bda46b-d4a4-5bf8-9ad6-4a210e207dfe	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Other Interleukin Signaling R-HSA-449836	CSF1	https://reactome.org	Reactome
+22bda46b-d4a4-5bf8-9ad6-4a210e207dfe	d0ad6b41-ac06-5b4f-af53-5ad861301e44	Reactome	Other Interleukin Signaling R-HSA-449836	SDC1	https://reactome.org	Reactome
+22bda46b-d4a4-5bf8-9ad6-4a210e207dfe	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Other Interleukin Signaling R-HSA-449836	PRTN3	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	ffe86b97-b41b-5dd2-bb27-dde228c68d89	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	NDRG1	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	BAX	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	CASP1	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	TNFRSF10A	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	f350ebe0-1cc8-57d6-9388-c36b245e35e2	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	TRIAP1	https://reactome.org	Reactome
+3dba207e-717e-57a8-bd24-2497bf1a03ea	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008	TNFRSF10B	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	cd70f8d4-f9ff-5910-9a30-c51c633a472f	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CXCL13	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	54c41fd6-7bae-55ca-8927-d1ebc4020158	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CCL7	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CXCL10	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	3a10a3bd-19d2-51c5-9e96-9322ee092ab1	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	GPR37	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	a69b0c72-daab-58b2-8503-7aec484b9eec	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CXCL9	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CCL3	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CXCL8	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	SFTPA2	https://reactome.org	Reactome
+d3f300c5-b3f9-5c0b-b726-9c1de0005fc4	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Class A/1 (Rhodopsin-like Receptors) R-HSA-373076	CCL20	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	716d876a-f512-5748-bf63-b9399329256f	Reactome	Innate Immune System R-HSA-168249	CHI3L1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	c203dac4-81d5-5a9f-9e73-9599bce1582a	Reactome	Innate Immune System R-HSA-168249	BRK1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	Reactome	Innate Immune System R-HSA-168249	PLA2G2A	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Innate Immune System R-HSA-168249	JUN	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	Reactome	Innate Immune System R-HSA-168249	FCAR	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	Reactome	Innate Immune System R-HSA-168249	CSTB	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	23f094fe-393e-543a-89c4-93c80ba3abf7	Reactome	Innate Immune System R-HSA-168249	CEACAM8	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	3289929e-9df0-50df-ab2e-5510c1933db1	Reactome	Innate Immune System R-HSA-168249	MNDA	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	Reactome	Innate Immune System R-HSA-168249	MMP8	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Innate Immune System R-HSA-168249	PRTN3	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	Reactome	Innate Immune System R-HSA-168249	PTX3	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	3de205e1-0721-5e5a-8fbf-04709991de32	Reactome	Innate Immune System R-HSA-168249	CTSH	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	f9db7351-8528-5073-b724-d777da39b78d	Reactome	Innate Immune System R-HSA-168249	CD300E	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	ea97ef30-2f23-5f73-a96a-d16bf7113eef	Reactome	Innate Immune System R-HSA-168249	PLAUR	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	Reactome	Innate Immune System R-HSA-168249	POLR2F	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	f4dc0041-5272-545e-b395-fed9ac71c23a	Reactome	Innate Immune System R-HSA-168249	RETN	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	64c71d36-8115-563d-85d3-4b562bd08e70	Reactome	Innate Immune System R-HSA-168249	TRIM21	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	fc163631-2d26-58ab-9141-136c329dbd76	Reactome	Innate Immune System R-HSA-168249	S100A11	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Innate Immune System R-HSA-168249	SFTPA2	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	ffb16013-4705-544d-be5d-039d292de82f	Reactome	Innate Immune System R-HSA-168249	C4BPB	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	Reactome	Innate Immune System R-HSA-168249	AZU1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	Reactome	Innate Immune System R-HSA-168249	ACAA1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Innate Immune System R-HSA-168249	CASP8	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	Reactome	Innate Immune System R-HSA-168249	OLR1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	6bc3be29-b26d-592e-a9f7-da92d52784b5	Reactome	Innate Immune System R-HSA-168249	S100P	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Innate Immune System R-HSA-168249	RNASE3	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	Reactome	Innate Immune System R-HSA-168249	SRP14	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Innate Immune System R-HSA-168249	CASP1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	Reactome	Innate Immune System R-HSA-168249	MAPK9	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Innate Immune System R-HSA-168249	LCN2	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Innate Immune System R-HSA-168249	CKAP4	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	5a9e7c4d-a10e-5634-b7cb-331b9eee9145	Reactome	Innate Immune System R-HSA-168249	TREM2	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	055e821e-b77f-5f65-a6fd-597b9df43286	Reactome	Innate Immune System R-HSA-168249	PADI2	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	Reactome	Innate Immune System R-HSA-168249	CLEC5A	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	e7d9f887-effd-5447-bf79-aca717fb75fe	Reactome	Innate Immune System R-HSA-168249	HSPA1A	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	ab5f808c-2f6b-5c31-9452-cd2bbd9953bc	Reactome	Innate Immune System R-HSA-168249	ATOX1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	54ce9fea-a0eb-5176-862a-542cf892e6f5	Reactome	Innate Immune System R-HSA-168249	CHIT1	https://reactome.org	Reactome
+2d75bd7a-044f-5379-86f7-f949bd09f7e4	190b262a-4e4d-58b0-b2e5-72767f443415	Reactome	Innate Immune System R-HSA-168249	NCF2	https://reactome.org	Reactome
+e8f5a4f3-64fd-5a6c-89a5-803c7e4d202d	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Regulated Necrosis R-HSA-5218859	CASP1	https://reactome.org	Reactome
+e8f5a4f3-64fd-5a6c-89a5-803c7e4d202d	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Regulated Necrosis R-HSA-5218859	CASP8	https://reactome.org	Reactome
+e8f5a4f3-64fd-5a6c-89a5-803c7e4d202d	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Regulated Necrosis R-HSA-5218859	TNFRSF10B	https://reactome.org	Reactome
+e8f5a4f3-64fd-5a6c-89a5-803c7e4d202d	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Regulated Necrosis R-HSA-5218859	TNFRSF10A	https://reactome.org	Reactome
+e8f5a4f3-64fd-5a6c-89a5-803c7e4d202d	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	Reactome	Regulated Necrosis R-HSA-5218859	BAX	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CCL20	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	a69b0c72-daab-58b2-8503-7aec484b9eec	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CXCL9	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CXCL10	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CXCL8	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	SFTPA2	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	3a10a3bd-19d2-51c5-9e96-9322ee092ab1	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	GPR37	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	cd70f8d4-f9ff-5910-9a30-c51c633a472f	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CXCL13	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	54c41fd6-7bae-55ca-8927-d1ebc4020158	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CCL7	https://reactome.org	Reactome
+72ea36f3-ea22-5b55-b972-4d0a6306e553	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Peptide Ligand-Binding Receptors R-HSA-375276	CCL3	https://reactome.org	Reactome
+8f67d35c-59f5-5b89-9d4d-d7bde022a3d6	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	CASP8 Activity Is Inhibited R-HSA-5218900	TNFRSF10B	https://reactome.org	Reactome
+8f67d35c-59f5-5b89-9d4d-d7bde022a3d6	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	CASP8 Activity Is Inhibited R-HSA-5218900	TNFRSF10A	https://reactome.org	Reactome
+8f67d35c-59f5-5b89-9d4d-d7bde022a3d6	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	CASP8 Activity Is Inhibited R-HSA-5218900	CASP8	https://reactome.org	Reactome
+c1eb5c42-7e2b-59bb-a7af-1ceb82dc9176	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Dimerization Of Procaspase-8 R-HSA-69416	TNFRSF10A	https://reactome.org	Reactome
+c1eb5c42-7e2b-59bb-a7af-1ceb82dc9176	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Dimerization Of Procaspase-8 R-HSA-69416	CASP8	https://reactome.org	Reactome
+c1eb5c42-7e2b-59bb-a7af-1ceb82dc9176	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Dimerization Of Procaspase-8 R-HSA-69416	TNFRSF10B	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	5b17b107-865c-5d20-950e-01a5d796262a	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	FSTL3	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	cb2a22f7-59fd-5a4e-a843-79b10ef30177	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	MSLN	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	d85e9d62-018a-5fe9-9cef-5a9218e8d17f	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	VWA1	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	CSF1	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	TIMP1	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	IL6	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	CKAP4	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	c4772e91-694b-5fb4-9b10-33ba56dcf0cc	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	LGALS1	https://reactome.org	Reactome
+96735bca-aacd-57cb-b5eb-b17b4153f7bf	f494f796-5f20-5b04-854d-6ec12065cb2c	Reactome	Post-translational Protein Phosphorylation R-HSA-8957275	CDH2	https://reactome.org	Reactome
+c3700f18-a640-52a4-9b1c-01ae7f7fbcda	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Defective CSF2RA Causes SMDP4 R-HSA-5688890	SFTPA2	https://reactome.org	Reactome
+c3700f18-a640-52a4-9b1c-01ae7f7fbcda	b07b3d74-4187-5488-a4e1-6d6d51656783	Reactome	Defective CSF2RA Causes SMDP4 R-HSA-5688890	SFTPA1	https://reactome.org	Reactome
+9c5710af-4810-513f-a0b0-5c2fac64fc22	ea97ef30-2f23-5f73-a96a-d16bf7113eef	Reactome	Dissolution Of Fibrin Clot R-HSA-75205	PLAUR	https://reactome.org	Reactome
+9c5710af-4810-513f-a0b0-5c2fac64fc22	3d6b2185-904b-5645-832e-b028ff4d103a	Reactome	Dissolution Of Fibrin Clot R-HSA-75205	SERPINB8	https://reactome.org	Reactome
+9c5710af-4810-513f-a0b0-5c2fac64fc22	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	Reactome	Dissolution Of Fibrin Clot R-HSA-75205	PLAT	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Interleukin-10 Signaling R-HSA-6783783	CXCL8	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	53304229-797b-53de-b74b-bb9a7e115b85	Reactome	Interleukin-10 Signaling R-HSA-6783783	LIF	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	Reactome	Interleukin-10 Signaling R-HSA-6783783	IL1RN	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Interleukin-10 Signaling R-HSA-6783783	TIMP1	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Interleukin-10 Signaling R-HSA-6783783	CCL3	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Interleukin-10 Signaling R-HSA-6783783	IL6	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Interleukin-10 Signaling R-HSA-6783783	CSF1	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Interleukin-10 Signaling R-HSA-6783783	CCL20	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	09cc5bee-2600-56f1-9276-65ff2a318c4c	Reactome	Interleukin-10 Signaling R-HSA-6783783	TNFRSF1A	https://reactome.org	Reactome
+1d1a88ef-7804-557b-b83d-af9d6adf1f4c	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Interleukin-10 Signaling R-HSA-6783783	CXCL10	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	BAX	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	JUN	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	POLR2F	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	ffe86b97-b41b-5dd2-bb27-dde228c68d89	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	NDRG1	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	f350ebe0-1cc8-57d6-9388-c36b245e35e2	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	TRIAP1	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	TNFRSF10A	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	TNFRSF10B	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	074ec1d5-a024-51a4-8f4e-df2269649266	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	ELOA	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	99be7247-c9e0-5709-bd43-d2bc1c1d86ff	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	NPM1	https://reactome.org	Reactome
+5fa3dc9b-86a1-5a39-a8dc-b425aac1c153	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Transcriptional Regulation By TP53 R-HSA-3700989	CASP1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Neutrophil Degranulation R-HSA-6798695	LCN2	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	22ada4b8-5f6e-5119-bf2f-d648ef712ed0	Reactome	Neutrophil Degranulation R-HSA-6798695	CSTB	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	169bb9d5-2365-5aca-aac5-58dfde40bd7c	Reactome	Neutrophil Degranulation R-HSA-6798695	SFTPA2	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	fc163631-2d26-58ab-9141-136c329dbd76	Reactome	Neutrophil Degranulation R-HSA-6798695	S100A11	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	055e821e-b77f-5f65-a6fd-597b9df43286	Reactome	Neutrophil Degranulation R-HSA-6798695	PADI2	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	54ce9fea-a0eb-5176-862a-542cf892e6f5	Reactome	Neutrophil Degranulation R-HSA-6798695	CHIT1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Neutrophil Degranulation R-HSA-6798695	RNASE3	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	Reactome	Neutrophil Degranulation R-HSA-6798695	ACAA1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	4c0f4b02-58e5-5379-b4ea-cd0ce15d8f23	Reactome	Neutrophil Degranulation R-HSA-6798695	CLEC5A	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	f425c386-75ee-5dc0-aa29-4a3591cb1fe4	Reactome	Neutrophil Degranulation R-HSA-6798695	OLR1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	f4dc0041-5272-545e-b395-fed9ac71c23a	Reactome	Neutrophil Degranulation R-HSA-6798695	RETN	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	a9ff2aa6-c51e-517c-88ef-87f8ae8519c0	Reactome	Neutrophil Degranulation R-HSA-6798695	FCAR	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Neutrophil Degranulation R-HSA-6798695	CKAP4	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Neutrophil Degranulation R-HSA-6798695	PRTN3	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	e7d9f887-effd-5447-bf79-aca717fb75fe	Reactome	Neutrophil Degranulation R-HSA-6798695	HSPA1A	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	83e4cf29-cef8-54e0-ae0e-35fdd990d2a6	Reactome	Neutrophil Degranulation R-HSA-6798695	SRP14	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	ea97ef30-2f23-5f73-a96a-d16bf7113eef	Reactome	Neutrophil Degranulation R-HSA-6798695	PLAUR	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	9c0f4e6f-d5cb-5dcd-a3b1-a12660c4da2b	Reactome	Neutrophil Degranulation R-HSA-6798695	AZU1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	Reactome	Neutrophil Degranulation R-HSA-6798695	PTX3	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	23f094fe-393e-543a-89c4-93c80ba3abf7	Reactome	Neutrophil Degranulation R-HSA-6798695	CEACAM8	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	6bc3be29-b26d-592e-a9f7-da92d52784b5	Reactome	Neutrophil Degranulation R-HSA-6798695	S100P	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	716d876a-f512-5748-bf63-b9399329256f	Reactome	Neutrophil Degranulation R-HSA-6798695	CHI3L1	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	3de205e1-0721-5e5a-8fbf-04709991de32	Reactome	Neutrophil Degranulation R-HSA-6798695	CTSH	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	Reactome	Neutrophil Degranulation R-HSA-6798695	MMP8	https://reactome.org	Reactome
+cde26b23-f641-534e-97ef-6c79e3cf2c47	3289929e-9df0-50df-ab2e-5510c1933db1	Reactome	Neutrophil Degranulation R-HSA-6798695	MNDA	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	5b17b107-865c-5d20-950e-01a5d796262a	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	FSTL3	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	c4772e91-694b-5fb4-9b10-33ba56dcf0cc	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	LGALS1	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	CSF1	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	f494f796-5f20-5b04-854d-6ec12065cb2c	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	CDH2	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	TIMP1	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	cb2a22f7-59fd-5a4e-a843-79b10ef30177	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	MSLN	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	d85e9d62-018a-5fe9-9cef-5a9218e8d17f	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	VWA1	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	IL6	https://reactome.org	Reactome
+1c0c47bd-f791-5b35-8607-ad884e758b7a	6a70954b-1a3a-59e3-8e21-c6a218b43c0d	Reactome	Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426	CKAP4	https://reactome.org	Reactome
+61946f3e-6c01-5a2f-b17c-287e4e9a7440	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	TRAIL Signaling R-HSA-75158	CASP8	https://reactome.org	Reactome
+61946f3e-6c01-5a2f-b17c-287e4e9a7440	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	TRAIL Signaling R-HSA-75158	TNFRSF10B	https://reactome.org	Reactome
+61946f3e-6c01-5a2f-b17c-287e4e9a7440	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	TRAIL Signaling R-HSA-75158	TNFRSF10A	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Signaling By Interleukins R-HSA-449147	PRTN3	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	7ce6b193-498a-5a06-9a67-cccb0fa81dd0	Reactome	Signaling By Interleukins R-HSA-449147	LGALS9	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Signaling By Interleukins R-HSA-449147	TIMP1	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Signaling By Interleukins R-HSA-449147	CASP8	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	184d1250-7660-52de-9ed4-70d57567d4db	Reactome	Signaling By Interleukins R-HSA-449147	CCL3	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Signaling By Interleukins R-HSA-449147	CXCL8	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	db816a12-c926-5222-b3ce-8a6b71fb6078	Reactome	Signaling By Interleukins R-HSA-449147	HAVCR2	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	a52151c8-1aaf-5123-be06-80b29383d0a0	Reactome	Signaling By Interleukins R-HSA-449147	CSF1	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	6e2660fd-77ff-5731-82cb-cd9d3d099c34	Reactome	Signaling By Interleukins R-HSA-449147	JUN	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	Reactome	Signaling By Interleukins R-HSA-449147	CXCL10	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	c3ef122b-f69f-5433-b729-309b8caa78af	Reactome	Signaling By Interleukins R-HSA-449147	CCL20	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	Reactome	Signaling By Interleukins R-HSA-449147	MAPK9	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	fa860458-bcd9-5b20-b634-80fb8e73cef7	Reactome	Signaling By Interleukins R-HSA-449147	CASP1	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	09cc5bee-2600-56f1-9276-65ff2a318c4c	Reactome	Signaling By Interleukins R-HSA-449147	TNFRSF1A	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	d0ad6b41-ac06-5b4f-af53-5ad861301e44	Reactome	Signaling By Interleukins R-HSA-449147	SDC1	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Signaling By Interleukins R-HSA-449147	IL6	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	f5d76ceb-f96f-5eaf-a311-22fd79d46fb8	Reactome	Signaling By Interleukins R-HSA-449147	IL1RN	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	53304229-797b-53de-b74b-bb9a7e115b85	Reactome	Signaling By Interleukins R-HSA-449147	LIF	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	Reactome	Signaling By Interleukins R-HSA-449147	VIM	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	2da063ed-a355-5b5b-898a-7c034c9f9dd0	Reactome	Signaling By Interleukins R-HSA-449147	IL16	https://reactome.org	Reactome
+4f316a8b-be26-50c9-8032-35970835cc17	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Signaling By Interleukins R-HSA-449147	LCN2	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	LCN2	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	VIM	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	53304229-797b-53de-b74b-bb9a7e115b85	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	LIF	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	f6e6de24-5d25-5c15-add3-35681997f1d1	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	CXCL8	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	ea48238e-69f6-5692-a08d-f091f574bdd4	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	TIMP1	https://reactome.org	Reactome
+94a8a9ae-8347-50f1-be02-01ebfc091fff	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	Reactome	Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807	IL6	https://reactome.org	Reactome
+a8648f39-ec86-5a64-8e18-dff4b0de9fe3	97291af2-f3ac-5c33-af04-4c8f459bc783	Reactome	Regulation Of Necroptotic Cell Death R-HSA-5675482	TNFRSF10A	https://reactome.org	Reactome
+a8648f39-ec86-5a64-8e18-dff4b0de9fe3	6dceb524-e8ff-5e21-88b6-571985b3234a	Reactome	Regulation Of Necroptotic Cell Death R-HSA-5675482	TNFRSF10B	https://reactome.org	Reactome
+a8648f39-ec86-5a64-8e18-dff4b0de9fe3	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	Reactome	Regulation Of Necroptotic Cell Death R-HSA-5675482	CASP8	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	64c71d36-8115-563d-85d3-4b562bd08e70	Reactome	Antimicrobial Peptides R-HSA-6803157	TRIM21	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	76c0c5d4-243f-5448-bbdd-f404ad8c5ef2	Reactome	Antimicrobial Peptides R-HSA-6803157	PRTN3	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	322a0c46-fc6d-51f9-be24-19044fafbec9	Reactome	Antimicrobial Peptides R-HSA-6803157	RNASE3	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	ab5f808c-2f6b-5c31-9452-cd2bbd9953bc	Reactome	Antimicrobial Peptides R-HSA-6803157	ATOX1	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	f3813c52-6ff3-5071-a7b5-9b10c2f42aff	Reactome	Antimicrobial Peptides R-HSA-6803157	PLA2G2A	https://reactome.org	Reactome
+c1097ee6-bb0c-543b-b741-36c2ff947e8b	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	Reactome	Antimicrobial Peptides R-HSA-6803157	LCN2	https://reactome.org	Reactome
+c345c26b-4cf5-5ce0-a4cb-84c2e285c306	32cb3260-c7c0-55d2-9ebe-aa9e567f2d55	WikiPathways	AGE/RAGE pathway WP2324	EZR	https://www.wikipathways.org	WikiPathways
+c345c26b-4cf5-5ce0-a4cb-84c2e285c306	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	AGE/RAGE pathway WP2324	JUN	https://www.wikipathways.org	WikiPathways
+c345c26b-4cf5-5ce0-a4cb-84c2e285c306	99eb6fa2-5516-543b-bb24-2df0e6eba82e	WikiPathways	AGE/RAGE pathway WP2324	MSR1	https://www.wikipathways.org	WikiPathways
+c345c26b-4cf5-5ce0-a4cb-84c2e285c306	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	AGE/RAGE pathway WP2324	MAPK9	https://www.wikipathways.org	WikiPathways
+c345c26b-4cf5-5ce0-a4cb-84c2e285c306	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	AGE/RAGE pathway WP2324	CASP8	https://www.wikipathways.org	WikiPathways
+088d6a8d-4179-5261-8519-21686ceb7799	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	TNF related weak inducer of apoptosis (TWEAK) Signaling Pathway WP2036	JUN	https://www.wikipathways.org	WikiPathways
+088d6a8d-4179-5261-8519-21686ceb7799	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	TNF related weak inducer of apoptosis (TWEAK) Signaling Pathway WP2036	MAPK9	https://www.wikipathways.org	WikiPathways
+088d6a8d-4179-5261-8519-21686ceb7799	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	TNF related weak inducer of apoptosis (TWEAK) Signaling Pathway WP2036	IL6	https://www.wikipathways.org	WikiPathways
+088d6a8d-4179-5261-8519-21686ceb7799	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	TNF related weak inducer of apoptosis (TWEAK) Signaling Pathway WP2036	CASP8	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	Chemokine signaling pathway WP3929	CCL3	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	026146ad-ddf0-518c-ac23-38f34d950830	WikiPathways	Chemokine signaling pathway WP3929	PXN	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	cd70f8d4-f9ff-5910-9a30-c51c633a472f	WikiPathways	Chemokine signaling pathway WP3929	CXCL13	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	a69b0c72-daab-58b2-8503-7aec484b9eec	WikiPathways	Chemokine signaling pathway WP3929	CXCL9	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	Chemokine signaling pathway WP3929	CXCL10	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	c3ef122b-f69f-5433-b729-309b8caa78af	WikiPathways	Chemokine signaling pathway WP3929	CCL20	https://www.wikipathways.org	WikiPathways
+138313cc-4702-51e0-8665-52cf33e6b6bf	54c41fd6-7bae-55ca-8927-d1ebc4020158	WikiPathways	Chemokine signaling pathway WP3929	CCL7	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	6dceb524-e8ff-5e21-88b6-571985b3234a	WikiPathways	Apoptosis WP254	TNFRSF10B	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	fa860458-bcd9-5b20-b634-80fb8e73cef7	WikiPathways	Apoptosis WP254	CASP1	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Apoptosis WP254	BAX	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Apoptosis WP254	JUN	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Apoptosis WP254	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+f74c00b2-8b2e-5fef-9246-c23fe6209034	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Apoptosis WP254	CASP8	https://www.wikipathways.org	WikiPathways
+4715c55d-4e70-577c-bd7b-b2ac8ea08ae6	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	BMP Signaling Pathway in Eyelid Development WP3927	MAPK9	https://www.wikipathways.org	WikiPathways
+4715c55d-4e70-577c-bd7b-b2ac8ea08ae6	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	BMP Signaling Pathway in Eyelid Development WP3927	JUN	https://www.wikipathways.org	WikiPathways
+4715c55d-4e70-577c-bd7b-b2ac8ea08ae6	a87c9007-a9b0-5799-879d-64cd1b45129c	WikiPathways	BMP Signaling Pathway in Eyelid Development WP3927	SFRP1	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	IL6	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	CASP8	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	MAPK9	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	169bb9d5-2365-5aca-aac5-58dfde40bd7c	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	SFTPA2	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	CXCL8	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	CCL3	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	a69b0c72-daab-58b2-8503-7aec484b9eec	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	CXCL9	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	CXCL10	https://www.wikipathways.org	WikiPathways
+e449dcb2-bfa6-5f99-ab54-216807ed9ebf	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Regulation of toll-like receptor signaling pathway WP1449	JUN	https://www.wikipathways.org	WikiPathways
+44fe7bda-068a-527c-861a-44e8d6d5dfd0	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Overview of nanoparticle effects WP3287	BAX	https://www.wikipathways.org	WikiPathways
+44fe7bda-068a-527c-861a-44e8d6d5dfd0	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Overview of nanoparticle effects WP3287	CXCL8	https://www.wikipathways.org	WikiPathways
+44fe7bda-068a-527c-861a-44e8d6d5dfd0	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Overview of nanoparticle effects WP3287	IL6	https://www.wikipathways.org	WikiPathways
+1b4df0d4-0d6d-5fd2-9305-d3b97041b069	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	miRNAs involvement in the immune response in sepsis WP4329	CCL3	https://www.wikipathways.org	WikiPathways
+1b4df0d4-0d6d-5fd2-9305-d3b97041b069	7bdf5914-2d0b-5620-a4cf-3b4f859d3fd3	WikiPathways	miRNAs involvement in the immune response in sepsis WP4329	LCN2	https://www.wikipathways.org	WikiPathways
+1b4df0d4-0d6d-5fd2-9305-d3b97041b069	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	miRNAs involvement in the immune response in sepsis WP4329	IL6	https://www.wikipathways.org	WikiPathways
+1b4df0d4-0d6d-5fd2-9305-d3b97041b069	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	miRNAs involvement in the immune response in sepsis WP4329	CXCL8	https://www.wikipathways.org	WikiPathways
+dfb30e48-c79e-53c5-81d5-5566c12e10c6	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Nanoparticle triggered regulated necrosis WP2513	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+dfb30e48-c79e-53c5-81d5-5566c12e10c6	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Nanoparticle triggered regulated necrosis WP2513	CASP8	https://www.wikipathways.org	WikiPathways
+dfb30e48-c79e-53c5-81d5-5566c12e10c6	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	WikiPathways	Nanoparticle triggered regulated necrosis WP2513	PARP1	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	fa860458-bcd9-5b20-b634-80fb8e73cef7	WikiPathways	Apoptosis Modulation and Signaling WP1772	CASP1	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Apoptosis Modulation and Signaling WP1772	BAX	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Apoptosis Modulation and Signaling WP1772	JUN	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	18cb2cb6-46dc-51c0-994f-c06fcf6d0d00	WikiPathways	Apoptosis Modulation and Signaling WP1772	TNFRSF6B	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	e7d9f887-effd-5447-bf79-aca717fb75fe	WikiPathways	Apoptosis Modulation and Signaling WP1772	HSPA1A	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	6dceb524-e8ff-5e21-88b6-571985b3234a	WikiPathways	Apoptosis Modulation and Signaling WP1772	TNFRSF10B	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	97291af2-f3ac-5c33-af04-4c8f459bc783	WikiPathways	Apoptosis Modulation and Signaling WP1772	TNFRSF10A	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Apoptosis Modulation and Signaling WP1772	CASP8	https://www.wikipathways.org	WikiPathways
+74ddb8cc-ab57-524b-b5fb-a41901544512	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Apoptosis Modulation and Signaling WP1772	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	Nonalcoholic fatty liver disease WP4396	MAPK9	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Nonalcoholic fatty liver disease WP4396	CASP8	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Nonalcoholic fatty liver disease WP4396	JUN	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Nonalcoholic fatty liver disease WP4396	CXCL8	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Nonalcoholic fatty liver disease WP4396	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Nonalcoholic fatty liver disease WP4396	BAX	https://www.wikipathways.org	WikiPathways
+c0a65174-446f-5e9a-9944-9680ad5de270	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Nonalcoholic fatty liver disease WP4396	IL6	https://www.wikipathways.org	WikiPathways
+e0e9e87a-497d-5ad8-aba6-96884d7706d9	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Regucalcin in proximal tubule epithelial kidney cells WP4838	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+e0e9e87a-497d-5ad8-aba6-96884d7706d9	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Regucalcin in proximal tubule epithelial kidney cells WP4838	CASP8	https://www.wikipathways.org	WikiPathways
+e0e9e87a-497d-5ad8-aba6-96884d7706d9	cc1412d0-b8c5-5935-92ff-614a3fdd33c3	WikiPathways	Regucalcin in proximal tubule epithelial kidney cells WP4838	CALCA	https://www.wikipathways.org	WikiPathways
+e0e9e87a-497d-5ad8-aba6-96884d7706d9	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Regucalcin in proximal tubule epithelial kidney cells WP4838	BAX	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CXCL8	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	a69b0c72-daab-58b2-8503-7aec484b9eec	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CXCL9	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	cd70f8d4-f9ff-5910-9a30-c51c633a472f	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CXCL13	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	db816a12-c926-5222-b3ce-8a6b71fb6078	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	HAVCR2	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	IL6	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CXCL10	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CCL3	https://www.wikipathways.org	WikiPathways
+b167ee9e-639a-525a-b9ab-971dea2b934e	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	SARS-CoV-2 innate immunity evasion and cell-specific immune response WP5039	CASP8	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	BAX	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	e2fb042f-ecef-5d40-ba5f-a91606ce0546	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	FKBP5	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	e7d9f887-effd-5447-bf79-aca717fb75fe	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	HSPA1A	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	469c76d1-68a3-59c9-94e3-8f70fcbfe32f	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	SLC39A14	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	d28b6c2c-5a5c-50fc-a2c1-7eb70fc6028c	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	DBI	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	c3ef122b-f69f-5433-b729-309b8caa78af	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	CCL20	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	JUN	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	6bc3be29-b26d-592e-a9f7-da92d52784b5	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	S100P	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	e18b5cf3-1356-526d-ae6f-f61fc6cf9260	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	ACAA1	https://www.wikipathways.org	WikiPathways
+0ada7524-489b-55f7-ac54-02eb9e500b53	f1654664-25b2-52e1-875c-ed6a08621b7d	WikiPathways	Nuclear Receptors Meta-Pathway WP2882	HGF	https://www.wikipathways.org	WikiPathways
+f04833e7-90ce-5063-805f-c2809a7e2485	e310a621-0171-5e06-bc31-e57473cf62d9	WikiPathways	NAD+ metabolism WP3644	NMNAT1	https://www.wikipathways.org	WikiPathways
+f04833e7-90ce-5063-805f-c2809a7e2485	50e1324b-cdcd-5e76-ab9a-b1442992b1c4	WikiPathways	NAD+ metabolism WP3644	NAMPT	https://www.wikipathways.org	WikiPathways
+f04833e7-90ce-5063-805f-c2809a7e2485	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	WikiPathways	NAD+ metabolism WP3644	PARP1	https://www.wikipathways.org	WikiPathways
+f04833e7-90ce-5063-805f-c2809a7e2485	dd30e4f6-d5e8-5a4d-a4f2-1b45baccaeb1	WikiPathways	NAD+ metabolism WP3644	NADK	https://www.wikipathways.org	WikiPathways
+acbb2066-4069-5653-b383-7c90a5efbefe	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Photodynamic therapy-induced AP-1 survival signaling. WP3611	JUN	https://www.wikipathways.org	WikiPathways
+acbb2066-4069-5653-b383-7c90a5efbefe	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Photodynamic therapy-induced AP-1 survival signaling. WP3611	IL6	https://www.wikipathways.org	WikiPathways
+acbb2066-4069-5653-b383-7c90a5efbefe	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Photodynamic therapy-induced AP-1 survival signaling. WP3611	BAX	https://www.wikipathways.org	WikiPathways
+acbb2066-4069-5653-b383-7c90a5efbefe	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Photodynamic therapy-induced AP-1 survival signaling. WP3611	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+f27a6f0d-5ee7-5db8-9e0d-b931b546c7a0	ea97ef30-2f23-5f73-a96a-d16bf7113eef	WikiPathways	Primary focal segmental glomerulosclerosis (FSGS) WP2572	PLAUR	https://www.wikipathways.org	WikiPathways
+f27a6f0d-5ee7-5db8-9e0d-b931b546c7a0	f494f796-5f20-5b04-854d-6ec12065cb2c	WikiPathways	Primary focal segmental glomerulosclerosis (FSGS) WP2572	CDH2	https://www.wikipathways.org	WikiPathways
+f27a6f0d-5ee7-5db8-9e0d-b931b546c7a0	dd34f2a9-8ffd-543e-89d6-16814eaf5d8e	WikiPathways	Primary focal segmental glomerulosclerosis (FSGS) WP2572	SCARB2	https://www.wikipathways.org	WikiPathways
+f27a6f0d-5ee7-5db8-9e0d-b931b546c7a0	522357b0-56ca-5dd0-a195-95eb9544cfc5	WikiPathways	Primary focal segmental glomerulosclerosis (FSGS) WP2572	AGRN	https://www.wikipathways.org	WikiPathways
+f27a6f0d-5ee7-5db8-9e0d-b931b546c7a0	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	WikiPathways	Primary focal segmental glomerulosclerosis (FSGS) WP2572	VIM	https://www.wikipathways.org	WikiPathways
+54f53165-6057-5383-a387-2dbc3fb1852e	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Hepatitis C and Hepatocellular Carcinoma WP3646	CXCL8	https://www.wikipathways.org	WikiPathways
+54f53165-6057-5383-a387-2dbc3fb1852e	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Hepatitis C and Hepatocellular Carcinoma WP3646	JUN	https://www.wikipathways.org	WikiPathways
+54f53165-6057-5383-a387-2dbc3fb1852e	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Hepatitis C and Hepatocellular Carcinoma WP3646	IL6	https://www.wikipathways.org	WikiPathways
+54f53165-6057-5383-a387-2dbc3fb1852e	629817b3-28ec-5318-86ba-694e8ec8409e	WikiPathways	Hepatitis C and Hepatocellular Carcinoma WP3646	RRM2	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	5e50c2fe-5e7c-598f-b12a-acdb9e78fe8f	WikiPathways	Senescence and Autophagy in Cancer WP615	PLAT	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	69427862-69c9-5087-8427-9c3462416322	WikiPathways	Senescence and Autophagy in Cancer WP615	ING1	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Senescence and Autophagy in Cancer WP615	IL6	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Senescence and Autophagy in Cancer WP615	JUN	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	Senescence and Autophagy in Cancer WP615	CCL3	https://www.wikipathways.org	WikiPathways
+94adb34e-a36b-5cd1-b546-74254cdb5e0b	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Senescence and Autophagy in Cancer WP615	CXCL8	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	190b262a-4e4d-58b0-b2e5-72767f443415	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	NCF2	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	e7d9f887-effd-5447-bf79-aca717fb75fe	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	HSPA1A	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	026146ad-ddf0-518c-ac23-38f34d950830	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	PXN	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	32cb3260-c7c0-55d2-9ebe-aa9e567f2d55	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	EZR	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	MAPK9	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	ffe86b97-b41b-5dd2-bb27-dde228c68d89	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	NDRG1	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	074ec1d5-a024-51a4-8f4e-df2269649266	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	ELOA	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	JUN	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	1cd45625-3080-5ff4-9935-0bced41b20df	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	TMSB10	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	CXCL8	https://www.wikipathways.org	WikiPathways
+cea6a21f-83c3-5559-8ffb-44e3001aca3b	ea97ef30-2f23-5f73-a96a-d16bf7113eef	WikiPathways	VEGFA-VEGFR2 Signaling Pathway WP3888	PLAUR	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	b07b3d74-4187-5488-a4e1-6d6d51656783	WikiPathways	Lung fibrosis WP3624	SFTPA1	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	169bb9d5-2365-5aca-aac5-58dfde40bd7c	WikiPathways	Lung fibrosis WP3624	SFTPA2	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	Lung fibrosis WP3624	CCL3	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Lung fibrosis WP3624	CXCL8	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Lung fibrosis WP3624	IL6	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	f1654664-25b2-52e1-875c-ed6a08621b7d	WikiPathways	Lung fibrosis WP3624	HGF	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	ea48238e-69f6-5692-a08d-f091f574bdd4	WikiPathways	Lung fibrosis WP3624	TIMP1	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	cc1412d0-b8c5-5935-92ff-614a3fdd33c3	WikiPathways	Lung fibrosis WP3624	CALCA	https://www.wikipathways.org	WikiPathways
+a2252a48-d762-5551-b7fc-fad76e32c968	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	WikiPathways	Lung fibrosis WP3624	PTX3	https://www.wikipathways.org	WikiPathways
+ee36697e-4d81-5eb6-9fb3-b72984dd59ff	acffab4f-a884-5ff4-bd18-4ec6c61c6a37	WikiPathways	Mammary gland development pathway - Puberty (Stage 2 of 4) WP2814	VIM	https://www.wikipathways.org	WikiPathways
+ee36697e-4d81-5eb6-9fb3-b72984dd59ff	ee525b90-bfe6-545b-8320-6a86e2b72680	WikiPathways	Mammary gland development pathway - Puberty (Stage 2 of 4) WP2814	AREG	https://www.wikipathways.org	WikiPathways
+ee36697e-4d81-5eb6-9fb3-b72984dd59ff	ea48238e-69f6-5692-a08d-f091f574bdd4	WikiPathways	Mammary gland development pathway - Puberty (Stage 2 of 4) WP2814	TIMP1	https://www.wikipathways.org	WikiPathways
+9297b051-2d15-50fe-8463-89cbf48d2eb1	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	COVID-19 adverse outcome pathway WP4891	CXCL8	https://www.wikipathways.org	WikiPathways
+9297b051-2d15-50fe-8463-89cbf48d2eb1	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	COVID-19 adverse outcome pathway WP4891	CCL3	https://www.wikipathways.org	WikiPathways
+9297b051-2d15-50fe-8463-89cbf48d2eb1	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	COVID-19 adverse outcome pathway WP4891	CXCL10	https://www.wikipathways.org	WikiPathways
+9297b051-2d15-50fe-8463-89cbf48d2eb1	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	COVID-19 adverse outcome pathway WP4891	IL6	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Toll-like Receptor Signaling Pathway WP75	IL6	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Toll-like Receptor Signaling Pathway WP75	CASP8	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	Toll-like Receptor Signaling Pathway WP75	CXCL10	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Toll-like Receptor Signaling Pathway WP75	JUN	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	Toll-like Receptor Signaling Pathway WP75	CCL3	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Toll-like Receptor Signaling Pathway WP75	CXCL8	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	a69b0c72-daab-58b2-8503-7aec484b9eec	WikiPathways	Toll-like Receptor Signaling Pathway WP75	CXCL9	https://www.wikipathways.org	WikiPathways
+f7fa339f-dc83-53e3-82f3-7d28cadf40a4	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	Toll-like Receptor Signaling Pathway WP75	MAPK9	https://www.wikipathways.org	WikiPathways
+b6924193-8858-53b0-a32b-f5a7d3d7de0e	21d6c926-ac40-57e1-94ae-7ef5e50b2efa	WikiPathways	Cytosolic DNA-sensing pathway WP4655	CXCL10	https://www.wikipathways.org	WikiPathways
+b6924193-8858-53b0-a32b-f5a7d3d7de0e	fa860458-bcd9-5b20-b634-80fb8e73cef7	WikiPathways	Cytosolic DNA-sensing pathway WP4655	CASP1	https://www.wikipathways.org	WikiPathways
+b6924193-8858-53b0-a32b-f5a7d3d7de0e	3fe8ff34-c6f5-599d-8fca-fe03ff53ff01	WikiPathways	Cytosolic DNA-sensing pathway WP4655	POLR2F	https://www.wikipathways.org	WikiPathways
+b6924193-8858-53b0-a32b-f5a7d3d7de0e	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Cytosolic DNA-sensing pathway WP4655	IL6	https://www.wikipathways.org	WikiPathways
+b6924193-8858-53b0-a32b-f5a7d3d7de0e	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Cytosolic DNA-sensing pathway WP4655	CASP8	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	ea48238e-69f6-5692-a08d-f091f574bdd4	WikiPathways	IL-18 signaling pathway WP4754	TIMP1	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	ebdb5ecd-cd38-5fc5-9190-80798e4b2826	WikiPathways	IL-18 signaling pathway WP4754	PTX3	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	IL-18 signaling pathway WP4754	IL6	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	IL-18 signaling pathway WP4754	MAPK9	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	6cdbaf4e-9dcf-5df9-892c-5f07ef2b4d01	WikiPathways	IL-18 signaling pathway WP4754	MMP8	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	c3ef122b-f69f-5433-b729-309b8caa78af	WikiPathways	IL-18 signaling pathway WP4754	CCL20	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	IL-18 signaling pathway WP4754	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	IL-18 signaling pathway WP4754	JUN	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	184d1250-7660-52de-9ed4-70d57567d4db	WikiPathways	IL-18 signaling pathway WP4754	CCL3	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	IL-18 signaling pathway WP4754	CXCL8	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	IL-18 signaling pathway WP4754	CASP8	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	190b262a-4e4d-58b0-b2e5-72767f443415	WikiPathways	IL-18 signaling pathway WP4754	NCF2	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	WikiPathways	IL-18 signaling pathway WP4754	PARP1	https://www.wikipathways.org	WikiPathways
+21322227-4bc4-5cff-ba82-8edba10bcf3a	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	IL-18 signaling pathway WP4754	BAX	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	TNF-alpha signaling pathway WP231	IL6	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	TNF-alpha signaling pathway WP231	CASP8	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	TNF-alpha signaling pathway WP231	JUN	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	TNF-alpha signaling pathway WP231	MAPK9	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	TNF-alpha signaling pathway WP231	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+e378d086-3ac4-5c13-a843-b82c503e4873	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	TNF-alpha signaling pathway WP231	BAX	https://www.wikipathways.org	WikiPathways
+dda9172a-18ef-52b8-81e6-f6c4f6accc8f	e7d9f887-effd-5447-bf79-aca717fb75fe	WikiPathways	Apoptosis Modulation by HSP70 WP384	HSPA1A	https://www.wikipathways.org	WikiPathways
+dda9172a-18ef-52b8-81e6-f6c4f6accc8f	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Apoptosis Modulation by HSP70 WP384	CASP8	https://www.wikipathways.org	WikiPathways
+dda9172a-18ef-52b8-81e6-f6c4f6accc8f	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Apoptosis Modulation by HSP70 WP384	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+47b9b57e-b7f4-5830-abf2-af9c205dbb71	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Non-genomic actions of 1,25 dihydroxyvitamin D3 WP4341	IL6	https://www.wikipathways.org	WikiPathways
+47b9b57e-b7f4-5830-abf2-af9c205dbb71	f6e6de24-5d25-5c15-add3-35681997f1d1	WikiPathways	Non-genomic actions of 1,25 dihydroxyvitamin D3 WP4341	CXCL8	https://www.wikipathways.org	WikiPathways
+47b9b57e-b7f4-5830-abf2-af9c205dbb71	09cc5bee-2600-56f1-9276-65ff2a318c4c	WikiPathways	Non-genomic actions of 1,25 dihydroxyvitamin D3 WP4341	TNFRSF1A	https://www.wikipathways.org	WikiPathways
+47b9b57e-b7f4-5830-abf2-af9c205dbb71	d7cc40a7-8fcc-5fc3-97b2-8ead8a263482	WikiPathways	Non-genomic actions of 1,25 dihydroxyvitamin D3 WP4341	MAPK9	https://www.wikipathways.org	WikiPathways
+47b9b57e-b7f4-5830-abf2-af9c205dbb71	6e2660fd-77ff-5731-82cb-cd9d3d099c34	WikiPathways	Non-genomic actions of 1,25 dihydroxyvitamin D3 WP4341	JUN	https://www.wikipathways.org	WikiPathways
+7eabb638-3fb9-5f07-a61a-e933aa3fb348	5b0e2bf3-4186-50d8-8bd2-3d5c0b88bc8d	WikiPathways	Acute viral myocarditis WP4298	CASP8	https://www.wikipathways.org	WikiPathways
+7eabb638-3fb9-5f07-a61a-e933aa3fb348	e9d040fe-aa2a-57ff-bfa5-b27c13b8b649	WikiPathways	Acute viral myocarditis WP4298	BAX	https://www.wikipathways.org	WikiPathways
+7eabb638-3fb9-5f07-a61a-e933aa3fb348	fa860458-bcd9-5b20-b634-80fb8e73cef7	WikiPathways	Acute viral myocarditis WP4298	CASP1	https://www.wikipathways.org	WikiPathways
+7eabb638-3fb9-5f07-a61a-e933aa3fb348	bb2c8c3a-1e4c-5cf0-8d55-146db01b5844	WikiPathways	Acute viral myocarditis WP4298	IL6	https://www.wikipathways.org	WikiPathways
+7eabb638-3fb9-5f07-a61a-e933aa3fb348	f3e0a556-a6ae-5f40-a286-0f01c5fd95eb	WikiPathways	Acute viral myocarditis WP4298	PARP1	https://www.wikipathways.org	WikiPathways
