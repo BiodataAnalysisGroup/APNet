@@ -1,0 +1,14 @@
+exp_file:
+  class: File
+  path: /home/ubuntu/projects/COVID19/NonSevere_19668_19668_5255/NonSevere_19668_19668_5255.exp
+probe_file:
+  class: File
+  path: /home/ubuntu/projects/COVID19/NonSevere_19668_19668_5255/tf/NonSevere_1047_1047_5144_tf.txt
+p_value_consensus: 0.01
+p_value_bootstrap: 1e-07
+depth: 40
+aracne_config_dir:
+  class: Directory
+  path: /home/ubuntu/anaconda3/envs/SJARACNe/lib/python3.7/site-packages/SJARACNe-0.2.1-py3.7.egg/SJARACNe/config
+bootstrap_num: 100
+final_out_dir_name: output_tf

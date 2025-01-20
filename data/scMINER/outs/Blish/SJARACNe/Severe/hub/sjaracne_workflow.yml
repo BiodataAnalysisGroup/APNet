@@ -1,0 +1,14 @@
+exp_file:
+  class: File
+  path: /mnt/new_home/vasileioubill/SJARACNe_Blish_MGH_scMGH_seurat_6_5K/Severe/Severe.15675_3891.exp.txt
+probe_file:
+  class: File
+  path: /mnt/new_home/vasileioubill/SJARACNe_Blish_MGH_scMGH_seurat_6_5K/Severe/TF/common.txt
+p_value_consensus: 0.01
+p_value_bootstrap: 1e-07
+depth: 40
+aracne_config_dir:
+  class: Directory
+  path: /apps/miniconda2/envs/SJARACNe/lib/python3.8/site-packages/SJARACNe-0.2.1-py3.8.egg/SJARACNe/config
+bootstrap_num: 100
+final_out_dir_name: TF
