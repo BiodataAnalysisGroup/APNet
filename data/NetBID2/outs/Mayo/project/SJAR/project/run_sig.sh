@@ -1,0 +1,1 @@
+sjaracne project_SIG C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1/3.NetBID2/Mayo/project/SJAR//project/input.exp C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1/3.NetBID2/Mayo/project/SJAR//project/sig.txt C:/Users/vasileioubill95/Desktop/Pipeline/Case_study_1/3.NetBID2/Mayo/project/SJAR/ 
