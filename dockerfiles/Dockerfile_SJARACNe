@@ -1,0 +1,33 @@
+# Use Miniconda base image
+FROM continuumio/miniconda3:latest
+
+# Set environment variables
+ENV CONDA_ENV=SJARACNe
+ENV PATH=/opt/conda/envs/$CONDA_ENV/bin:$PATH
+
+# Create the conda environment and install packages
+RUN conda create -y -n $CONDA_ENV python=3.9.2 \
+    && conda install -y -n $CONDA_ENV nodejs=18.16.0 \
+    && conda clean -afy
+
+# Activate environment and install pip packages
+RUN /bin/bash -c "source activate $CONDA_ENV \
+    && pip install numpy==1.20.1 \
+    && pip install scipy==1.6.1 \
+    && pip install pandas==1.2.3 \
+    && pip install cwltool==3.1.20230201224320"
+
+# Set working directory
+WORKDIR /opt
+
+# Clone SJARACNe repository
+RUN git clone https://github.com/jyyulab/SJARACNe
+
+# Build and install SJARACNe
+WORKDIR /opt/SJARACNe
+RUN /bin/bash -c "source activate $CONDA_ENV \
+    && python setup.py build \
+    && python setup.py install"
+
+# Set default command
+CMD ["/bin/bash"]

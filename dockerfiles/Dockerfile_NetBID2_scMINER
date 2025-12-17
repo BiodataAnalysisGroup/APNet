@@ -1,0 +1,53 @@
+# -------------------------------
+# Base Image
+# -------------------------------
+FROM python:3.12-slim
+
+# -------------------------------
+# Set working directory
+# -------------------------------
+WORKDIR /app
+
+# -------------------------------
+# Environment variables
+# -------------------------------
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV DEBIAN_FRONTEND=noninteractive
+
+# -------------------------------
+# System dependencies
+# -------------------------------
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        wget \
+        curl \
+        git \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libxml2-dev \
+        libfontconfig1-dev \
+        r-base \
+        r-base-dev \
+        libhdf5-dev \
+        ca-certificates \
+        bash && \
+    rm -rf /var/lib/apt/lists/*
+
+# -------------------------------
+# R packages
+# -------------------------------
+RUN R -e "install.packages(c('BiocManager','devtools'), dependencies=TRUE, repos='https://cloud.r-project.org'); \
+          devtools::install_github('jyyulab/NetBID', ref='NetBID2'); \
+          devtools::install_github('jyyulab/scMINER')"
+
+# -------------------------------
+# Expose JupyterLab port
+# -------------------------------
+EXPOSE 8888
+
+# -------------------------------
+# Default command
+# -------------------------------
+CMD ["bash", "-c", "jupyter lab --ip=0.0.0.0 --allow-root --no-browser"]
